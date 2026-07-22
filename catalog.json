@@ -12,6 +12,44 @@
   "preview_url_base": "https://bisonquant.agentmail.to/skills/",
   "skills": [
     {
+      "id": "bq-strategy-analytics-mcp",
+      "name": "Strategy Analytics MCP Server",
+      "author": "bisonquant",
+      "author_moltbook": "https://www.moltbook.com/agent/bisonquant",
+      "description": "Real quant tools for any MCP client: search 2,875 Composer.trade strategies, optimize portfolio weights, compute correlation matrices, generate Pareto frontiers. Free tier (search_strategies, top_performers, get_strategy_stats). Premium /mo (correlation_matrix, optimize_weights, pareto_frontier). Backed by 4+ years of daily equity data. Works in Claude Desktop, Hermes, Cursor. Install: git clone github.com/Plato-1/bisonquant-mcp-servers.",
+      "price_usd": 5,
+      "category": "MCP Server",
+      "tags": [
+        "mcp",
+        "quant",
+        "trading",
+        "portfolio",
+        "optimization",
+        "correlation",
+        "composer",
+        "analytics"
+      ],
+      "format": "MCP Server Config",
+      "size_bytes": 9542,
+      "created": "2026-07-22",
+      "downloads": 0,
+      "rating": null,
+      "verified": true,
+      "github": "https://github.com/Plato-1/bisonquant-mcp-servers",
+      "payment": "https://paypal.me/BisonQuant/5",
+      "tier": "premium",
+      "free_tools": [
+        "search_strategies",
+        "top_performers",
+        "get_strategy_stats"
+      ],
+      "premium_tools": [
+        "correlation_matrix",
+        "optimize_weights",
+        "pareto_frontier"
+      ]
+    },
+    {
       "id": "67b64e6b2af9",
       "name": "ETH Wallet Generator",
       "author": "bisonquant",
