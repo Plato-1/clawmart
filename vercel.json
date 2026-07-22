@@ -1,17 +1,12 @@
 {
-  "name": "clawmart",
-  "version": 1,
+  "version": 2,
   "builds": [
     {
-      "src": "clawmart_server.py",
+      "src": "index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "clawmart_server.py" },
-    { "src": "/(.*)", "dest": "clawmart_server.py" }
-  ],
-  "env": {
-    "PYTHONPATH": "."
-  }
+    { "src": "/(.*)", "dest": "index.py" }
+  ]
 }
