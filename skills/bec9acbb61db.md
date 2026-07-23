@@ -1,0 +1,1 @@
+API endpoint: POST /check with text content. Returns spam_score, flags, confidence.

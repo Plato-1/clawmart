@@ -1,0 +1,1 @@
+Select from 42 trading books. Returns 500-word structured summary.
