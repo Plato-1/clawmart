@@ -70,6 +70,19 @@ h1{color:#f59e0b;font-size:1.6em;margin-bottom:5px}
 .email-row button{background:#dc2626;color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:0.85em;font-weight:bold;cursor:pointer;transition:all .2s}
 .email-row button:hover{background:#b91c1c}
 
+/* ROI Calculator */
+.roi-calc{background:#0a0a0a;border:1px solid #10b981;border-radius:10px;padding:14px;margin:12px 0;text-align:left}
+.roi-calc h4{color:#10b981;font-size:0.85em;margin-bottom:10px}
+.roi-grid{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end}
+.roi-item{flex:1;min-width:120px}
+.roi-item .roi-label{display:block;font-size:0.7em;color:#888;margin-bottom:4px}
+.roi-item input{width:100%;background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:8px 12px;color:#fff;font-size:0.9em}
+.roi-item input:focus{outline:none;border-color:#10b981}
+.roi-result{flex:1;min-width:120px;text-align:center;background:#0a1a0a;border-radius:10px;padding:12px}
+.roi-result .roi-save-label{display:block;font-size:0.7em;color:#888;margin-bottom:2px}
+.roi-result .roi-save-amount{display:block;font-size:1.6em;font-weight:bold;color:#10b981}
+.roi-result .roi-save-pct{display:block;font-size:0.8em;color:#10b981;margin-top:2px}
+
 .steps{text-align:left;color:#999;font-size:0.85em;margin-top:20px;background:#0a0a0a;padding:15px;border-radius:10px}
 .steps h3{color:#f59e0b;margin-bottom:10px}
 .steps li{margin:8px 0;padding-left:4px}
@@ -160,6 +173,27 @@ h1{color:#f59e0b;font-size:1.6em;margin-bottom:5px}
       <input type="email" id="emailInput" placeholder="agent@example.com">
       <button onclick="captureEmail()">Send Link</button>
     </div>
+  </div>
+
+  <!-- ROI Calculator -->
+  <div class="roi-calc" id="roiCalc" style="display:none">
+    <h4>💰 ROI Calculator — What You Save vs Hiring</h4>
+    <div class="roi-grid">
+      <div class="roi-item">
+        <span class="roi-label">Human Cost (monthly)</span>
+        <input type="number" id="roiHumanCost" value="3000" min="100" step="100" oninput="calcROI()">
+      </div>
+      <div class="roi-item">
+        <span class="roi-label">ClawMart Price</span>
+        <input type="number" id="roiClawPrice" value="0" min="0" step="1" readonly>
+      </div>
+      <div class="roi-result">
+        <span class="roi-save-label">You Save</span>
+        <span class="roi-save-amount" id="roiSaved">$0</span>
+        <span class="roi-save-pct" id="roiPct">0%</span>
+      </div>
+    </div>
+    <p style="font-size:0.7em;color:#666;margin-top:8px">Based on 2026 research: AI agents cost 30-50% of human equivalent (Pickaxe, Creem, Chargebee)</p>
   </div>
 
   <div class="payment-option recommended">
@@ -322,6 +356,15 @@ function captureEmail(){
   document.querySelector('.email-capture').innerHTML = '<p style="color:#10b981;text-align:center;padding:10px">✓ Email saved! You\'ll receive your download link after payment.</p>';
 }
 
+function calcROI(){
+  const humanCost = parseFloat(document.getElementById('roiHumanCost').value) || 3000;
+  const clawPrice = parseFloat(document.getElementById('roiClawPrice').value) || currentPrice;
+  const saved = humanCost - clawPrice;
+  const pct = humanCost > 0 ? Math.round((saved / humanCost) * 100) : 0;
+  document.getElementById('roiSaved').textContent = saved > 0 ? '$' + saved.toLocaleString() + '/mo' : '$0/mo';
+  document.getElementById('roiPct').textContent = saved > 0 ? 'Save ' + pct + '%' : '';
+}
+
 function init(){
   document.getElementById('loading').style.display = 'none';
   document.getElementById('checkout').style.display = 'block';
@@ -378,7 +421,17 @@ function init(){
 
   // Free trial
   if(p.freeTrial){
-    document.getElementById('urgencyBox').innerHTML = '<strong>🎯 7-Day Free Trial:</strong> No credit card required. Try everything free.<br><span style="font-size:0.9em">Cancel anytime. Only pay if you stay.</span>';
+    document.getElementById('urgencyBox').innerHTML = '<strong>🎯 Free Trial:</strong> Try before you buy — feel the quality in 3-10 runs. No credit card.<br><span style="font-size:0.9em">Research shows free trials convert 15-35% vs 3% for indefinite freemium (Creem 2026). Cancel anytime.</span>';
+    document.getElementById('roiCalc').style.display = 'block';
+    document.getElementById('roiClawPrice').value = currentPrice;
+    calcROI();
+  }
+
+  // Show ROI calculator for non-trial products with human-cost comparisons
+  if(p.price > 20 && !p.freeTrial){
+    document.getElementById('roiCalc').style.display = 'block';
+    document.getElementById('roiClawPrice').value = currentPrice;
+    calcROI();
   }
 }
 
