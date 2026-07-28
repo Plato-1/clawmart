@@ -11,8 +11,8 @@ STATIC_DIR = os.path.join(BASE_DIR, "marketplace", "static")
 HTML = """<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ClawMart — AI Agent Skills Marketplace | 1,684+ Products, 6 New Categories</title>
-<meta name="description" content="1,684+ AI agent skills, 6 new categories: Healthcare AI, Real Estate AI, EdTech, Creator Economy, InsurTech. Outcome-based pricing, subscriptions, white-label reselling. Free trials, ROI calculator. Crypto + PayPal checkout.">
+<title>ClawMart — AI Agent Skills Marketplace | 1,700+ Products, Affiliate Program, Cross-Sell</title>
+<meta name="description" content="1,703+ AI agent skills. 15-35% affiliate commissions, cross-sell recommendations, outcome-based pricing, subscriptions, white-label. 60 categories. New: Affiliate Marketing, Conversion Optimization, Community & Trust products.">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.5}
@@ -76,8 +76,8 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
 <body>
 <div class="header">
   <h1>🦞 ClawMart</h1>
-  <p class="subtitle">AI Agent Skills Marketplace — 1,684+ Products · 6 New Categories Live</p>
-  <p class="tagline">Healthcare AI · Real Estate AI · EdTech · Creator Economy · InsurTech · Outcome-Based Pricing</p>
+  <p class="subtitle">AI Agent Skills Marketplace — 1,703+ Products · Affiliate Program · Cross-Sell</p>
+  <p class="tagline">Earn 15-35% Commission · Conversion Optimization · Community · Trust · Analytics · 60 Categories</p>
 </div>
 
 <div class="trust-bar">

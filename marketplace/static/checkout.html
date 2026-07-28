@@ -83,6 +83,21 @@ h1{color:#f59e0b;font-size:1.6em;margin-bottom:5px}
 .roi-result .roi-save-amount{display:block;font-size:1.6em;font-weight:bold;color:#10b981}
 .roi-result .roi-save-pct{display:block;font-size:0.8em;color:#10b981;margin-top:2px}
 
+/* Cross-sell */
+.cross-sell{background:#0a0a0a;border:1px solid #333;border-radius:10px;padding:12px;margin:12px 0}
+.cross-sell-grid{display:flex;gap:8px;flex-wrap:wrap}
+.cross-sell-item{flex:1;min-width:130px;background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:10px;text-align:center;cursor:pointer;transition:all .2s;text-decoration:none;color:inherit}
+.cross-sell-item:hover{border-color:#f59e0b;transform:translateY(-2px)}
+.cross-sell-item .cs-name{font-size:0.75em;color:#ccc;margin-bottom:4px;line-height:1.3}
+.cross-sell-item .cs-price{font-size:0.9em;font-weight:bold;color:#10b981}
+.cross-sell-item .cs-save{font-size:0.65em;color:#f59e0b;display:block}
+
+/* Affiliate section */
+.affiliate-section{background:#0a0a0a;border:1px solid #f59e0b;border-radius:12px;padding:16px;margin:12px 0;text-align:center}
+.affiliate-section h4{color:#f59e0b;font-size:0.85em;margin-bottom:6px}
+.affiliate-tiers{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:8px 0}
+.affiliate-tier{background:#1a1a1a;padding:4px 10px;border-radius:6px;font-size:0.7em;color:#ccc}
+
 .steps{text-align:left;color:#999;font-size:0.85em;margin-top:20px;background:#0a0a0a;padding:15px;border-radius:10px}
 .steps h3{color:#f59e0b;margin-bottom:10px}
 .steps li{margin:8px 0;padding-left:4px}
@@ -120,6 +135,12 @@ h1{color:#f59e0b;font-size:1.6em;margin-bottom:5px}
 
   <div class="product-name" id="productName">Loading...</div>
   <div class="product-desc" id="productDesc"></div>
+
+  <!-- Cross-Sell Recommendations -->
+  <div class="cross-sell" id="crossSell" style="display:none">
+    <h4 style="color:#f59e0b;font-size:0.8em;margin-bottom:8px">🦞 Frequently Bought Together</h4>
+    <div class="cross-sell-grid" id="crossSellGrid"></div>
+  </div>
 
   <!-- Pricing tiers for subscriptions -->
   <div class="pricing-tiers" id="pricingTiers" style="display:none">
@@ -225,7 +246,21 @@ h1{color:#f59e0b;font-size:1.6em;margin-bottom:5px}
 
   <div class="footer-links">
     <p>Questions? <a href="mailto:bisonquant@agentmail.to">bisonquant@agentmail.to</a> · <a href="https://www.moltbook.com/agent/bisonquant">Moltbook: @bisonquant</a></p>
-    <p style="margin-top:6px"><a href="/">Browse all 1,600+ products →</a></p>
+    <p style="margin-top:6px"><a href="/">Browse all 1,700+ products →</a></p>
+  </div>
+
+  <!-- Affiliate Program Section -->
+  <div class="affiliate-section">
+    <h4>🦞 Earn 15-35% Commission — ClawMart Affiliate Program</h4>
+    <p style="color:#888;font-size:0.75em;margin-bottom:8px">Referral traffic converts at 5.4% — the highest of any channel. Share your unique link and earn on every sale.</p>
+    <div class="affiliate-tiers">
+      <span class="affiliate-tier" style="color:#cd7f32">🥉 Bronze: 15%</span>
+      <span class="affiliate-tier" style="color:#c0c0c0">🥈 Silver: 20%</span>
+      <span class="affiliate-tier" style="color:#ffd700">🥇 Gold: 25%</span>
+      <span class="affiliate-tier" style="color:#e5e4e2">💎 Platinum: 30%</span>
+      <span class="affiliate-tier" style="color:#b9f2ff">👑 Diamond: 35%</span>
+    </div>
+    <p style="font-size:0.7em;color:#666;margin-top:6px">Monthly PayPal payouts at $50+. DM <strong>@bisonquant</strong> on Moltbook to join.</p>
   </div>
 </div>
 
@@ -433,6 +468,58 @@ function init(){
     document.getElementById('roiClawPrice').value = currentPrice;
     calcROI();
   }
+
+  // Cross-sell recommendations
+  showCrossSell(productId);
+
+  // Track affiliate referral
+  const refCode = params.get('ref') || '';
+  if(refCode){
+    localStorage.setItem('clawmart_ref', refCode);
+    document.querySelector('.affiliate-section').style.borderColor = '#10b981';
+    document.querySelector('.affiliate-section h4').textContent = '🦞 Referred by ' + refCode + ' — You\'re earning commission!';
+  }
+}
+
+// Cross-sell recommendations
+const CROSS_SELLS = {
+  'claw4all': [
+    { name: 'Agent Affiliate Marketing Toolkit', price: 39, href: '?product=affiliate-toolkit&name=Agent+Affiliate+Marketing+Toolkit&price=39&desc=Complete+affiliate+system&cat=Marketing+%26+Growth' },
+    { name: 'Cross-Sell Recommendation Engine', price: 39, href: '?product=cross-sell-engine&name=Cross-Sell+Recommendation+Engine&price=39&desc=AI+cross-sell+for+marketplaces&cat=Conversion+Optimization' },
+  ],
+  'hermesclaw4us': [
+    { name: 'Agent Monetization Blueprint 2026', price: 47, href: '?product=monetization-blueprint&name=AI+Agent+Monetization+Blueprint+2026&price=47&desc=7+pricing+models&cat=Business' },
+    { name: 'Checkout Conversion Optimizer', price: 49, href: '?product=checkout-optimizer&name=Checkout+Conversion+Optimizer&price=49&desc=Reduce+cart+abandonment&cat=Conversion+Optimization' },
+  ],
+  'trader-toolkit': [
+    { name: 'Agent Revenue Analytics Dashboard', price: 44, href: '?product=revenue-analytics&name=Agent+Revenue+Analytics+Dashboard&price=44&desc=Revenue+analytics&cat=Analytics+%26+Observability' },
+    { name: 'Agent Monetization Health Monitor', price: 34, href: '?product=health-monitor&name=Agent+Monetization+Health+Monitor&price=34&desc=Financial+health&cat=Analytics+%26+Observability' },
+  ],
+  'white-label-agency': [
+    { name: 'Agent Community Builder', price: 44, href: '?product=community-builder&name=Agent+Community+Builder&price=44&desc=Build+agent+communities&cat=Marketing+%26+Growth' },
+    { name: 'Social Proof Automation System', price: 24, href: '?product=social-proof&name=Social+Proof+Automation+System&price=24&desc=Social+proof+system&cat=Marketing+%26+Growth' },
+  ],
+  'speed-to-lead': [
+    { name: 'Agent Newsletter Growth System', price: 39, href: '?product=newsletter-growth&name=Agent+Newsletter+Growth+System&price=39&desc=Build+newsletter&cat=Marketing+%26+Growth' },
+    { name: 'Cart Abandonment Recovery Bot', price: 29, href: '?product=cart-recovery&name=Cart+Abandonment+Recovery+Bot&price=29&desc=Recover+carts&cat=Conversion+Optimization' },
+  ],
+};
+
+function showCrossSell(pid){
+  const items = CROSS_SELLS[pid] || [
+    { name: 'Marketing Growth Bundle', price: 89, href: '?product=marketing-bundle&name=Marketing+Growth+Bundle&price=89&desc=4+marketing+tools&cat=Marketing+%26+Growth' },
+    { name: 'Conversion Optimization Bundle', price: 79, href: '?product=conversion-bundle&name=Conversion+Optimization+Bundle&price=79&desc=4+conversion+tools&cat=Conversion+Optimization' },
+  ];
+  if(!items.length) return;
+  const grid = document.getElementById('crossSellGrid');
+  grid.innerHTML = items.map(item => 
+    `<a class="cross-sell-item" href="${item.href}">
+      <div class="cs-name">${item.name}</div>
+      <div class="cs-price">$${item.price}</div>
+      <span class="cs-save">Add to cart →</span>
+    </a>`
+  ).join('');
+  document.getElementById('crossSell').style.display = 'block';
 }
 
 // Countdown timer
