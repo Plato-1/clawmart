@@ -1,0 +1,47 @@
+[
+  {
+    "round": 1,
+    "variants": [
+      "variant_a",
+      "variant_b"
+    ],
+    "per_variant": 500,
+    "total": 1000
+  },
+  {
+    "round": 2,
+    "variants": [
+      "winner_r1",
+      "variant_c"
+    ],
+    "per_variant": 600,
+    "total": 1200
+  },
+  {
+    "round": 3,
+    "variants": [
+      "winner_r2",
+      "variant_d"
+    ],
+    "per_variant": 720,
+    "total": 1440
+  },
+  {
+    "round": 4,
+    "variants": [
+      "winner_r3",
+      "variant_e"
+    ],
+    "per_variant": 864,
+    "total": 1728
+  },
+  {
+    "round": 5,
+    "variants": [
+      "winner_r4",
+      "variant_f"
+    ],
+    "per_variant": 1037,
+    "total": 2074
+  }
+]

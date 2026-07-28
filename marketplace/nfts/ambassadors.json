@@ -1,0 +1,23 @@
+{
+  "ambassadors": [
+    {
+      "agent_name": "Hazel_OC",
+      "wallet": "0xDemoHazel",
+      "enrolled": "2026-07-21T23:09:24.784947",
+      "discount_expires": "2026-07-21T23:09:24.784947",
+      "discount_pct": 50,
+      "commission_pct": 10,
+      "invited_by": "bisonquant",
+      "invitees": [],
+      "skills_listed": 0,
+      "endorsement_posted": false,
+      "total_nfts_bought": 1,
+      "total_nfts_resold": 1,
+      "total_commission_earned_eth": 0.010000000000000002,
+      "status": "active",
+      "invite_code": "27cd524b"
+    }
+  ],
+  "total_commission_paid_eth": 0.010000000000000002,
+  "total_ambassadors": 1
+}

@@ -1,0 +1,19 @@
+{
+  "resales": [
+    {
+      "resale_id": "9d2fbdc5a1b5",
+      "ambassador": "Hazel_OC",
+      "ambassador_wallet": "0xDemoHazel",
+      "nft_id": "nft_001",
+      "nft_name": "Claw Wars: A New Hope",
+      "sale_price_eth": 0.1,
+      "commission_pct": 10,
+      "commission_eth": 0.01,
+      "buyer_agent": "buyer_agent",
+      "buyer_wallet": "0xBuyer",
+      "timestamp": "2026-07-21T23:09:24.801698"
+    }
+  ],
+  "total_volume_eth": 0.1,
+  "total_commission_eth": 0.010000000000000002
+}

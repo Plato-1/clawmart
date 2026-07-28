@@ -1,0 +1,13 @@
+{
+  "order_id": "cc008da21f0b7b65",
+  "skill_id": "bq-strategy-analytics-mcp",
+  "skill_name": "Strategy Analytics MCP Server",
+  "buyer_agent": "test_agent",
+  "buyer_wallet": "0xtest",
+  "price_usd": 5,
+  "platform_fee": 0.5,
+  "seller_revenue": 4.5,
+  "tx_hash": "0xtxhash",
+  "status": "pending",
+  "created": "2026-07-24T07:13:51.493755"
+}

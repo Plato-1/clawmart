@@ -1,0 +1,144 @@
+{
+  "10_platforms": [
+    {
+      "platform": "OpenSea",
+      "url": "https://opensea.io",
+      "audience": "Largest NFT marketplace — 2M+ active traders",
+      "listing_cost": 0,
+      "platform_fee": "2.5% per sale",
+      "best_for": "Maximum exposure, Ethereum/Polygon/Base NFTs",
+      "monetization": [
+        "1. List Genesis NFTs as a verified collection — OpenSea verification badge builds trust. Price at 0.05-0.50 ETH per rarity tier. Set creator royalties at 5% for ongoing secondary sale income.",
+        "2. Create 'ClawMart Drop #1' as a collection page with all 1,000 NFTs. Use rarity rankings to drive trading volume. Each secondary sale earns 5% royalty in perpetuity.",
+        "3. Run timed auctions for the Top 10 rarest NFTs (Mythic tier). Auctions create bidding wars and price discovery. Set reserve prices at 0.50 ETH. Promote on Moltbook during auction window."
+      ]
+    },
+    {
+      "platform": "Rarible",
+      "url": "https://rarible.com",
+      "audience": "Community-governed NFT marketplace, strong creator community",
+      "listing_cost": 0,
+      "platform_fee": "2.5% buyer + 2.5% seller",
+      "best_for": "Community engagement, creator royalties, multi-chain",
+      "monetization": [
+        "1. Launch with Rarible's 'lazy minting' — NFTs are minted only when purchased, zero gas cost for us. List all 1,000 NFTs at tiered prices.",
+        "2. Create a ClawMart $CLAW social token on Rarible. Token holders get: exclusive NFT drops, voting rights on marketplace features, revenue share from platform fees. Community ownership drives viral growth.",
+        "3. Partner with Rarible's featured creator program. Featured collections get homepage placement, newsletter promotion, and social media amplification — free marketing to 1M+ monthly visitors."
+      ]
+    },
+    {
+      "platform": "Magic Eden",
+      "url": "https://magiceden.io",
+      "audience": "Leading Solana/Bitcoin NFT marketplace, strong degens",
+      "listing_cost": 0,
+      "platform_fee": "2% per sale",
+      "best_for": "Solana-native NFTs, faster/cheaper transactions, degens",
+      "monetization": [
+        "1. Mint ClawMart NFTs on Solana instead of Ethereum — gas fees are $0.00025 vs $5-50 on ETH. List all 1,000 NFTs at SOL-denominated prices. Attract Solana-native traders who prefer fast, cheap transactions.",
+        "2. Launch a ClawMart NFT collection with Magic Eden's Launchpad. Launchpad projects get: featured placement, dedicated auction page, Twitter Spaces promotion. Typical Launchpad projects see 5-10x mint-day volume vs organic listings.",
+        "3. Create a 'ClawMart x Solana' crossover collection — 100 exclusive Solana-only NFTs with different artwork than the ETH collection. Scarcity across chains drives cross-chain collectors to buy both."
+      ]
+    },
+    {
+      "platform": "Blur",
+      "url": "https://blur.io",
+      "audience": "Professional NFT traders, highest volume marketplace",
+      "listing_cost": 0,
+      "platform_fee": "0.5% marketplace fee",
+      "best_for": "High-volume trading, floor sweeping, pro traders",
+      "monetization": [
+        "1. List ClawMart NFTs with Blur's sweep-friendly pricing. Pro traders on Blur sweep entire floors. Structure rarity tiers so floor-sweeping common NFTs at 0.01 ETH is attractive to volume traders farming Blur points.",
+        "2. Use Blur's trait bidding — traders can bid on specific rarity tiers (e.g., 'buy any Mythic ClawMart NFT at 0.40 ETH'). This creates a liquid market where sellers can instantly sell at bid prices.",
+        "3. Participate in Blur Season rewards. Blur distributes tokens to active traders. Listing ClawMart NFTs on Blur during active seasons attracts traders farming points who will buy NFTs they otherwise wouldn't — free demand."
+      ]
+    },
+    {
+      "platform": "Coinbase NFT",
+      "url": "https://nft.coinbase.com",
+      "audience": "100M+ verified Coinbase users, retail-friendly",
+      "listing_cost": 0,
+      "platform_fee": "Varies, currently low during beta",
+      "best_for": "Retail adoption, fiat on-ramp, mainstream users",
+      "monetization": [
+        "1. Leverage Coinbase's fiat on-ramp — buyers can purchase NFTs with USD, credit cards, or bank transfers. No crypto knowledge needed. This opens ClawMart NFTs to the 100M Coinbase users who don't have MetaMask.",
+        "2. Create a 'ClawMart Starter Pack' — bundle 3 Common NFTs + 1 Uncommon NFT for $50 USD (payable by credit card). Entry-level pricing converts curious buyers who balk at ETH. Upsell to premium tiers after first purchase.",
+        "3. Use Coinbase's social features — buyers can share their NFTs to their Coinbase profile, creating organic viral distribution to their 100M user network. Each share is free marketing."
+      ]
+    },
+    {
+      "platform": "LooksRare",
+      "url": "https://looksrare.org",
+      "audience": "Community-focused, LOOKS token rewards",
+      "listing_cost": 0,
+      "platform_fee": "2% (reduced vs OpenSea)",
+      "best_for": "Community rewards, token incentives, active traders",
+      "monetization": [
+        "1. List ClawMart NFTs and earn LOOKS token rewards on every trade. Both buyers and sellers earn LOOKS. Accumulated tokens can be sold for additional revenue — effectively getting paid to list.",
+        "2. Create a ClawMart collection page with LooksRare's collection offer feature — buyers can make offers on the entire floor. This creates price discovery and makes the collection 'tradeable' rather than just 'collectible'.",
+        "3. Run a LooksRare-exclusive promotion: 'Buy any ClawMart NFT on LooksRare and receive 50 LOOKS tokens from the platform rewards pool.' The platform subsidizes the incentive — free value add for our buyers."
+      ]
+    },
+    {
+      "platform": "SuperRare",
+      "url": "https://superrare.com",
+      "audience": "Curated high-end art NFTs, serious collectors",
+      "listing_cost": "Gas for minting (~$30-100 ETH)",
+      "platform_fee": "15% gallery fee + 3% transaction",
+      "best_for": "Premium positioning, high-value single editions",
+      "monetization": [
+        "1. Submit the 10 Mythic-tier ClawMart NFTs as SuperRare 1/1 editions. Each is a unique artwork. SuperRare's curation adds prestige — collectors pay premium prices for SR-verified artworks. List at 1-3 ETH each.",
+        "2. Create a ClawMart artist profile documenting the collection's origin story. SuperRare buyers value narrative and provenance. A well-told story about 'the first AI agent marketplace' can 5-10x the perceived value.",
+        "3. Use SuperRare's timed auction format. 24-hour auctions with reserve prices create urgency. Promote each auction on Moltbook — 'Mona Clawsa auction ends in 3 hours. Current bid: 0.8 ETH.' FOMO drives final bids."
+      ]
+    },
+    {
+      "platform": "Foundation",
+      "url": "https://foundation.app",
+      "audience": "Curated creative community, artists and designers",
+      "listing_cost": "Gas + invite required",
+      "platform_fee": "15% (5% to platform, 10% to invite creator)",
+      "best_for": "Artistic credibility, creative community cross-pollination",
+      "monetization": [
+        "1. Submit Clawsterpieces (art category, 100 NFTs) as an artistic collection. Foundation's creative community appreciates the Mona Clawsa/The Clawry Night parody angle. Art credibility → higher prices.",
+        "2. Use Foundation's 'Buy Now' + auction hybrid — fixed price with a timed auction that activates after first bid. This captures both impulse buyers and auction-driven collectors in one listing.",
+        "3. Leverage Foundation's invite system for viral distribution. Every creator who invites us gets 10% of our initial sales. Incentivize Foundation artists to invite ClawMart → they promote us to their audiences to earn the invite reward."
+      ]
+    },
+    {
+      "platform": "Zora",
+      "url": "https://zora.co",
+      "audience": "Web3-native creators, protocol-owned marketplace",
+      "listing_cost": 0,
+      "platform_fee": "Protocol fee (set by creator)",
+      "best_for": "Creator-owned economics, referral rewards, own marketplace",
+      "monetization": [
+        "1. Use Zora's referral rewards — anyone who refers a buyer to a ClawMart NFT earns a percentage of the sale. This creates an army of unpaid promoters sharing ClawMart links for the referral fee. Set referral reward at 5% of sale price.",
+        "2. Create a ClawMart-branded Zora marketplace page. Zora allows creators to launch their own branded storefront on the Zora protocol. Owning the storefront means owning the customer relationship and data.",
+        "3. Use Zora's 'editions' feature — sell the 170 Common NFTs as open editions (unlimited copies at a fixed price) rather than limited. The volume play: sell 1,000 copies of 'Doge Claw' at 0.005 ETH each = 5 ETH from one design, instead of one sale."
+      ]
+    },
+    {
+      "platform": "Manifold",
+      "url": "https://manifold.xyz",
+      "audience": "Creator-first minting platform, top artists use it",
+      "listing_cost": 0,
+      "platform_fee": "0% (Manifold takes no cut — you own the contract)",
+      "best_for": "Owning the smart contract, cross-platform drops",
+      "monetization": [
+        "1. Mint ClawMart NFTs through a Manifold custom smart contract — you own the contract and can deploy to OpenSea, Rarible, LooksRare simultaneously from one mint. List once, sell everywhere. 0% Manifold fee.",
+        "2. Use Manifold's claim page — a branded landing page where buyers mint directly. No marketplace middleman. Share the link on Moltbook, AgentMail, Defici, everywhere. 100% of the sale price goes to us.",
+        "3. Create an allowlist (pre-sale) through Manifold. Top 100 Moltbook agents get early minting access at a discount. Allowlists create exclusivity and FOMO. Announce: 'Genesis NFT pre-sale for ambassadors only. 24 hours. Then public.'"
+      ]
+    }
+  ],
+  "monetization_summary": {
+    "total_platforms": 10,
+    "total_monetization_strategies": 30,
+    "estimated_revenue_potential": {
+      "conservative_monthly": "$5,000-15,000 from initial mint sales across all platforms",
+      "secondary_royalties": "5% perpetual on all resales = ongoing passive income",
+      "creator_tokens": "$CLAW social token could add $500-2,000/month in platform fee revenue",
+      "referral_network": "Zora + Foundation referrals create viral distribution at near-zero cost"
+    }
+  }
+}

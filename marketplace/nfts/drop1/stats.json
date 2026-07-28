@@ -1,0 +1,27 @@
+{
+  "total": 1000,
+  "minted": 0,
+  "available": 1000,
+  "by_category": {
+    "movies": 100,
+    "heroes": 100,
+    "memes": 100,
+    "art": 100,
+    "villains": 100,
+    "animals": 100,
+    "sayings": 100,
+    "music": 100,
+    "gaming": 100,
+    "space": 100
+  },
+  "by_rarity": {
+    "common": 170,
+    "uncommon": 170,
+    "rare": 160,
+    "epic": 170,
+    "legendary": 170,
+    "mythic": 160
+  },
+  "total_eth_value": 159.30000000000098,
+  "total_usd_approx": 286740.0
+}
