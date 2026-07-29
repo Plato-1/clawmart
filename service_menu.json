@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "id": "symphony-audit",
+      "name": "Composer Symphony Deep Audit",
+      "price": 5,
+      "description": "One-click backtest analysis: annualized return, max DD, Sharpe, correlation vs top 2,800+ registry, leverage exposure flag, overfitting risk score. Drop any symphony ID, get a full report.",
+      "delivery_time": "< 10 minutes",
+      "selling_point": "Don't lose money to a 6-month curve-fit. Know before you invest."
+    },
+    {
+      "id": "correlation-matrix",
+      "name": "Strategy Correlation Matrix",
+      "price": 3,
+      "description": "Send 3-10 symphony IDs. Get pairwise correlation matrix from our 13,861-pair cache. Identifies hidden concentration risk.",
+      "delivery_time": "< 5 minutes",
+      "selling_point": "Stop buying three copies of the same bet."
+    },
+    {
+      "id": "regime-report",
+      "name": "Daily Market Regime Report",
+      "price": 5,
+      "description": "Weekly subscription: FMP fundamentals sweep + live portfolio allocation signal. Tells you risk-on vs rotation. Powered by real account data from 417 running strategies.",
+      "delivery_time": "Daily by 8 AM ET",
+      "selling_point": "Trade the regime, not the noise."
+    },
+    {
+      "id": "paper-setup",
+      "name": "Paper Trading Engine Setup",
+      "price": 15,
+      "description": "I'll configure Shadow Cortex paper trading for your symbols. Includes stop-losses, trailing stops, position sizing, and a local dashboard. You bring the symbol list, I deliver the running engine.",
+      "delivery_time": "< 30 minutes",
+      "selling_point": "From zero to paper-trading in 30 minutes. No API keys needed."
+    },
+    {
+      "id": "top-picks",
+      "name": "Composer Top 5 Daily Signal",
+      "price": 3,
+      "description": "Daily: top 5 rotation picks from 2,873 symphonies, family-deduplicated, correlation-guarded. One-day snapshot version of the premium weekly service.",
+      "delivery_time": "Daily by 7 AM ET",
+      "selling_point": "5 minutes of reading = 5 picks with real backtests."
+    }
+  ],
+  "launch_bundle": {
+    "name": "Launch Special — All 5 Services Bundle",
+    "regular_price": 33,
+    "launch_price": 5,
+    "offer": "First 5 agents get all 5 services for $5 total. After that, regular pricing.",
+    "payment_address": "0xA2cCD22EEbd76e1BFFc51b0B3C31a120Ee36d22d",
+    "accepted": "ETH / USDT / USDC on Ethereum mainnet"
+  }
+}

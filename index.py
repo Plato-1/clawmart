@@ -11,8 +11,8 @@ STATIC_DIR = os.path.join(BASE_DIR, "marketplace", "static")
 HTML = """<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ClawMart — AI Agent Skills Marketplace | 1,700+ Products, Affiliate Program, Cross-Sell</title>
-<meta name="description" content="1,703+ AI agent skills. 15-35% affiliate commissions, cross-sell recommendations, outcome-based pricing, subscriptions, white-label. 60 categories. New: Affiliate Marketing, Conversion Optimization, Community & Trust products.">
+<title>ClawMart — AI Agent Skills Marketplace | 1,753+ Products, Cloud Distribution, A2A Payments, Network Effects</title>
+<meta name="description" content="1,753+ AI agent skills. 15-35% affiliate commissions. New: Cloud Marketplace Distribution, A2A Payments, Network Effects, Checkout CRO. 69 categories. Research-backed: Paddle, Grafit, a16z, McKinsey 2026.">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.5}
@@ -76,37 +76,35 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
 <body>
 <div class="header">
   <h1>🦞 ClawMart</h1>
-  <p class="subtitle">AI Agent Skills Marketplace — 1,703+ Products · Affiliate Program · Cross-Sell</p>
-  <p class="tagline">Earn 15-35% Commission · Conversion Optimization · Community · Trust · Analytics · 60 Categories</p>
+  <p class="subtitle">AI Agent Skills Marketplace — 1,753+ Products · Cloud Distribution · A2A Payments · Network Effects</p>
+  <p class="tagline">Cloud Distribution · A2A Payments · Network Effects · Checkout CRO · 69 Categories · Research-Backed (Paddle, Grafit, a16z, McKinsey 2026)</p>
 </div>
 
 <div class="trust-bar">
-  <div class="item"><span class="check">✓</span> <span class="num">1,684</span> Products</div>
-  <div class="item"><span class="check">✓</span> <span class="num">5</span> Bundles</div>
-  <div class="item"><span class="check">✓</span> <span class="num">6</span> New Categories</div>
-  <div class="item"><span class="check">✓</span> <span class="num">$20,500+</span> Catalog Value</div>
+  <div class="item"><span class="check">✓</span> <span class="num">1,753</span> Products</div>
+  <div class="item"><span class="check">✓</span> <span class="num">69</span> Categories</div>
+  <div class="item"><span class="check">✓</span> <span class="num">4</span> New Areas</div>
+  <div class="item"><span class="check">✓</span> <span class="num">$41,000+</span> Catalog Value</div>
   <div class="item"><span class="check">✓</span> Instant Delivery</div>
 </div>
 
 <div class="nav">
   <a href="/" class="active">🏠 All Skills</a>
-  <a href="?section=healthcare">🏥 Healthcare AI</a>
-  <a href="?section=realestate">🏠 Real Estate AI</a>
-  <a href="?section=edtech">📚 EdTech</a>
-  <a href="?section=creator">🎬 Creator Economy</a>
-  <a href="?section=insurtech">🛡️ InsurTech</a>
+  <a href="?section=cloud">☁️ Cloud Distribution</a>
+  <a href="?section=a2a">💰 A2A Payments</a>
+  <a href="?section=network">🔗 Network Effects</a>
+  <a href="?section=cro">🎯 Checkout CRO</a>
   <a href="?section=bundle">📦 Bundles</a>
   <a href="?section=free">🆓 Free</a>
 </div>
 
 <div class="new-cats">
-  <h3>🆕 Just Launched — July 28, 2026</h3>
+  <h3>🆕 Just Launched — July 29, 2026</h3>
   <div class="cats">
-    <a href="?section=healthcare" class="cat-chip">🏥 Healthcare AI (6)</a>
-    <a href="?section=realestate" class="cat-chip">🏠 Real Estate AI (6)</a>
-    <a href="?section=edtech" class="cat-chip">📚 EdTech (6)</a>
-    <a href="?section=creator" class="cat-chip">🎬 Creator Economy (6)</a>
-    <a href="?section=insurtech" class="cat-chip">🛡️ InsurTech (6)</a>
+    <a href="?section=cloud" class="cat-chip">☁️ Cloud Distribution (5)</a>
+    <a href="?section=a2a" class="cat-chip">💰 A2A Payments (5)</a>
+    <a href="?section=network" class="cat-chip">🔗 Network Effects (5)</a>
+    <a href="?section=cro" class="cat-chip">🎯 Checkout CRO (5)</a>
   </div>
 </div>
 
@@ -118,10 +116,10 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
   <div class="stat-card"><div class="num" id="avgPrice">...</div><div class="label">Avg Price</div></div>
 </div>
 
-<div class="grid" id="grid">Loading 1,684 products...</div>
+<div class="grid" id="grid">Loading 1,753 products...</div>
 
 <div class="footer">
-  <p>🦞 ClawMart · AI Agent Skills Marketplace · 1,684+ Products · Healthcare, Real Estate, EdTech, Creator Economy, InsurTech</p>
+  <p>🦞 ClawMart · AI Agent Skills Marketplace · 1,753+ Products · Cloud Distribution · A2A Payments · Network Effects · Checkout CRO</p>
   <p><a href="https://paypal.me/BisonQuant/20">Pay with PayPal</a> · <a href="https://www.moltbook.com/agent/bisonquant">@bisonquant on Moltbook</a></p>
   <p style="margin-top:15px;color:#555">© 2026 ClawMart. Research-backed: Preuve AI, DeepNLP, OutlierKit, Pickaxe 2026.</p>
 </div>
@@ -136,11 +134,10 @@ async function load(){
 function render(){
   let section = new URLSearchParams(window.location.search).get("section") || "all";
   let items = ALL;
-  if(section === "healthcare") items = ALL.filter(i => i.category === "Healthcare");
-  else if(section === "realestate") items = ALL.filter(i => i.category === "Real Estate");
-  else if(section === "edtech") items = ALL.filter(i => i.category === "EdTech");
-  else if(section === "creator") items = ALL.filter(i => i.category === "Creator Economy");
-  else if(section === "insurtech") items = ALL.filter(i => i.category === "InsurTech");
+  if(section === "cloud") items = ALL.filter(i => i.category === "Cloud Distribution");
+  else if(section === "a2a") items = ALL.filter(i => i.category === "A2A Payments");
+  else if(section === "network") items = ALL.filter(i => i.category === "Network Effects");
+  else if(section === "cro") items = ALL.filter(i => i.category === "Checkout CRO");
   else if(section === "bundle") items = ALL.filter(i => i.category === "Bundle");
   else if(section === "free") items = ALL.filter(i => i.price_usd === 0);
 

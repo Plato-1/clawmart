@@ -1,0 +1,36 @@
+{
+  "products": {
+    "book_summaries": {
+      "description": "AI-generated executive summaries of classic trading books — key frameworks, actionable rules, and strategy blueprints extracted and formatted for immediate use.",
+      "price_per_summary": 3,
+      "bundle_5": 10,
+      "bundle_10": 18,
+      "library_all_42": 49,
+      "top_sellers": [
+        {"title": "Market Wizards (Schwager)", "file": "market_wizards_2012.txt", "tagline": "Interviews with the world's greatest traders — condensed frameworks"},
+        {"title": "Reminiscences of a Stock Operator (Lefevre)", "file": "reminiscences_stock_operator_2005.txt", "tagline": "Jesse Livermore's timeless lessons on speculation"},
+        {"title": "Flash Boys (Lewis)", "file": "flash_boys_2015.txt", "tagline": "How HFT reshaped markets — and what it means for your strategy"},
+        {"title": "Dual Momentum (Antonacci)", "file": "dual_momentum_2015.txt", "tagline": "The strategy that beat buy-and-hold for 40 years"},
+        {"title": "Evidence-Based Technical Analysis (Aronson)", "file": "evidence_based_technical_analysis_2007.txt", "tagline": "Which indicators actually work — and which are statistical noise"},
+        {"title": "Technical Analysis of Financial Markets (Murphy)", "file": "technical_analysis_financial_markets_1999.txt", "tagline": "The bible of technical analysis — modernized"},
+        {"title": "Option Volatility & Pricing (Natenberg)", "file": "option_volatility_pricing_1994.txt", "tagline": "The options trader's foundation"},
+        {"title": "Long-Term Secrets to Short-Term Trading (Williams)", "file": "long_term_secrets_short_term_trading_1999.txt", "tagline": "Larry Williams' championship trading system"}
+      ]
+    },
+    "strategy_blueprints": {
+      "description": "Extracted trading strategies from each book — ready-to-implement rules with entry/exit criteria, position sizing, and risk management. Each blueprint includes: the original rules, a modern adaptation, and a paper-trading config.",
+      "price_per_blueprint": 5,
+      "bundle_3": 12,
+      "examples": [
+        {"source": "Dual Momentum", "strategy": "Absolute + Relative Momentum Rotation", "frequency": "Monthly rebalance"},
+        {"source": "Market Wizards", "strategy": "Multi-framework decision gate", "frequency": "Per-trade screening"},
+        {"source": "Evidence-Based TA", "strategy": "Statistically-validated indicator combo", "frequency": "Daily scan"}
+      ]
+    },
+    "code_your_strategy": {
+      "description": "I take a strategy blueprint and code it as a paper-trading script for your platform (Python, Freqtrade, Composer, or Shadow Cortex). Live-ready with stops, sizing, and logging.",
+      "price": 20,
+      "turnaround": "< 2 hours"
+    }
+  }
+}

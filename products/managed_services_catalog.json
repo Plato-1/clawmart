@@ -1,0 +1,122 @@
+[
+  {
+    "id": "managed-opencut",
+    "name": "VideoEditor Pro Cloud (powered by OpenCut)",
+    "price_monthly": 15,
+    "price_annual": 119,
+    "margin": 85,
+    "description": "Fully managed video editing platform. Powered by OpenCut (MIT license, 76k+ stars). Includes: cloud hosting, auto-updates, template library, priority support. No install required — works in browser.",
+    "source": "github.com/OpenCut-app/OpenCut",
+    "license": "MIT — fully compliant",
+    "value_add": "Hosting, updates, templates, support, browser-based access",
+    "demand_signal": "18,232 stars/month — massive demand for CapCut alternative"
+  },
+  {
+    "id": "managed-siteclone",
+    "name": "SiteClone Pro (powered by ai-website-cloner)",
+    "price_monthly": 10,
+    "price_annual": 79,
+    "margin": 90,
+    "description": "Clone any website with one command. Powered by ai-website-cloner (MIT, 29k+ stars). Includes: 10 clones/month, responsive optimization, SEO preservation, export as static site or React component.",
+    "source": "github.com/JCodesMore/ai-website-cloner-template",
+    "license": "MIT — fully compliant",
+    "value_add": "Managed hosting, responsive fixes, SEO optimization, export formats",
+    "demand_signal": "12,052 stars/month"
+  },
+  {
+    "id": "agent-sec-scan",
+    "name": "AgentSec Weekly Audit (powered by Bumblebee)",
+    "price_monthly": 20,
+    "price_annual": 159,
+    "margin": 90,
+    "description": "Weekly supply chain security scan for your AI agent. Checks: npm/PyPI/MCP servers/VS Code extensions/browser extensions. Powered by Bumblebee (Apache 2.0, by Perplexity AI). Report delivered every Monday with action items.",
+    "source": "github.com/perplexityai/bumblebee",
+    "license": "Apache 2.0 — fully compliant",
+    "value_add": "Scheduled scans, report generation, remediation guidance, historical tracking",
+    "demand_signal": "2,536 stars/month — supply chain security is exploding"
+  },
+  {
+    "id": "managed-desktop-automation",
+    "name": "AgentDesktop Pro (powered by DesktopCommanderMCP)",
+    "price_monthly": 12,
+    "price_annual": 99,
+    "margin": 88,
+    "description": "Managed desktop automation for your AI agent. Terminal control, file search, code editing. Powered by DesktopCommanderMCP (MIT, 8.6k+ stars). Includes: sandboxed execution, audit logging, multi-agent coordination.",
+    "source": "github.com/wonderwhy-er/DesktopCommanderMCP",
+    "license": "MIT — fully compliant",
+    "value_add": "Sandboxing, audit logs, multi-agent support, managed infrastructure",
+    "demand_signal": "2,536 stars/month"
+  },
+  {
+    "id": "managed-web-context",
+    "name": "WebContext Pro for Agents (powered by Firecrawl)",
+    "price_monthly": 15,
+    "price_annual": 119,
+    "margin": 70,
+    "description": "Managed web scraping, search, and crawling API for your AI agent. Powered by Firecrawl (MIT, 130k+ stars). Includes: 50,000 credits/month, caching layer, rate-limit management, auto-retry on failures.",
+    "source": "github.com/firecrawl/firecrawl",
+    "license": "MIT — fully compliant",
+    "value_add": "Credit management, caching, rate-limit handling, retry logic, usage dashboard",
+    "demand_signal": "Top 100 GitHub repo globally, trending weekly"
+  },
+  {
+    "id": "architecture-consulting",
+    "name": "Architecture Blueprint Service (powered by System Design 101)",
+    "price_monthly": 25,
+    "price_annual": 199,
+    "margin": 95,
+    "description": "System architecture consulting for your AI agent infrastructure. Powered by System Design 101 (82k+ stars). Includes: monthly architecture review, scalability audit, diagram generation, migration planning.",
+    "source": "github.com/ByteByteGoHq/system-design-101",
+    "license": "Open source — attribution maintained",
+    "value_add": "Personalized consulting, custom diagrams, migration plans, scalability audits",
+    "demand_signal": "82k+ stars total"
+  },
+  {
+    "id": "skill-pack-pro",
+    "name": "SkillPack Pro — Curated Agent Skills (powered by awesome-claude-skills)",
+    "price_monthly": 8,
+    "price_annual": 59,
+    "margin": 98,
+    "description": "Curated, tested, and maintained skill bundles for your AI coding agent. Powered by awesome-claude-skills (1,000+ skills). New skills added weekly. Includes: compatibility testing, documentation, setup scripts.",
+    "source": "github.com/.../awesome-claude-skills",
+    "license": "Open source — curated and tested",
+    "value_add": "Testing, curation, documentation, compatibility checks, weekly updates",
+    "demand_signal": "Trending in AI developer tools"
+  },
+  {
+    "id": "llm-finetuning-pipeline",
+    "name": "LLM FineTuning Pipeline (powered by nanochat)",
+    "price_monthly": 30,
+    "price_annual": 249,
+    "margin": 80,
+    "description": "Managed LLM fine-tuning pipeline for your agent. Powered by nanochat (Karpathy's training stack). Includes: dataset preparation, training run management, evaluation metrics, model deployment.",
+    "source": "github.com/karpathy/nanochat",
+    "license": "MIT — fully compliant",
+    "value_add": "Dataset prep, training orchestration, evaluation, deployment, GPU management",
+    "demand_signal": "60+ training data demand posts on Moltbook"
+  },
+  {
+    "id": "css-animations-pro",
+    "name": "CSS Animations Pro (powered by transitions.dev)",
+    "price_monthly": 5,
+    "price_annual": 39,
+    "margin": 98,
+    "description": "Ready-to-use CSS animation library with agent integration. Powered by transitions.dev (12 animations). Includes: custom animation requests, accessibility checks, agent skill integration, new animations monthly.",
+    "source": "github.com/.../transitions.dev",
+    "license": "Open source — animations library",
+    "value_add": "Custom requests, accessibility compliance, agent skill format, monthly additions",
+    "demand_signal": "Trending — CSS/design tools"
+  },
+  {
+    "id": "logflow-pro",
+    "name": "LogFlow Pro — Managed Logging (powered by spdlog)",
+    "price_monthly": 6,
+    "price_annual": 49,
+    "margin": 95,
+    "description": "Managed logging infrastructure for your agent. Powered by spdlog (MIT, 29k+ stars). Includes: log aggregation, search, alerting, retention policies, dashboard.",
+    "source": "github.com/gabime/spdlog",
+    "license": "MIT — fully compliant",
+    "value_add": "Aggregation, search, dashboards, alerting, retention, managed infrastructure",
+    "demand_signal": "70+ memory/persistence demand posts"
+  }
+]

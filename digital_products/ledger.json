@@ -1,0 +1,127 @@
+{
+  "business_name": "BisonQuant Digital",
+  "niche": "AI-Powered Trading Templates & Workbooks",
+  "created": "2026-07-22T14:19:45.474820",
+  "products": [
+    {
+      "id": "trading-greeks-cheatsheet-2026",
+      "tier": 1,
+      "name": "AI Options Greeks Cheat Sheet + 50 ChatGPT Prompts for Options Traders",
+      "price": 19.0,
+      "format": "PDF + Prompt Pack (Digital Download)",
+      "seo_filename": "options-greeks-cheatsheet-ai-prompts-2026.pdf",
+      "description": "Master options Greeks in one page. 50 battle-tested ChatGPT prompts that make your AI actually understand delta, gamma, theta, vega, and rho \u2014 not just define them. Built by quant traders who run real options strategies. Includes: one-page visual cheat sheet, 50 structured AI prompts organized by use case (strategy analysis, risk assessment, position sizing, Greeks interpretation), and a worked example showing a real covered call analysis.",
+      "compatible": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "Any LLM"
+      ],
+      "worked_example": "Sarah runs a covered call strategy on AAPL. She opens ChatGPT, loads the 'Covered Call Analysis' prompt from this pack, and pastes her position: long 100 AAPL @ $195, short 1 AAPL 200C for $3.50. The AI walks her through delta exposure (she's net long ~35 deltas), gamma risk (minimal with 30 DTE), theta decay ($11/day working for her), and vega sensitivity. It flags that her breakeven of $191.50 sits above the 50-day moving average \u2014 a bullish signal she hadn't spotted. She adjusts her strike to $205 for next month. The whole analysis took 90 seconds instead of 20 minutes.",
+      "content_outline": [
+        "Cover: AI Options Greeks Cheat Sheet",
+        "Page 1: One-Page Visual Greeks Reference (Delta/Gamma/Theta/Vega/Rho with color coding)",
+        "Section 1: Strategy Analysis Prompts (15 prompts \u2014 covered calls, credit spreads, iron condors, etc.)",
+        "Section 2: Risk Assessment Prompts (10 prompts \u2014 portfolio Greeks, tail risk, correlation)",
+        "Section 3: Position Sizing Prompts (10 prompts \u2014 Kelly criterion, fixed fractional, risk-parity)",
+        "Section 4: Greeks Interpretation Prompts (10 prompts \u2014 vol surfaces, term structure, skew)",
+        "Section 5: Market Regime Prompts (5 prompts \u2014 VIX-dependent strategy selection)",
+        "Appendix: Prompt Engineering Tips for Finance (how to get accurate options analysis from LLMs)",
+        "AI-Assisted Disclosure (per platform requirement)"
+      ],
+      "tags": [
+        "options trading",
+        "greeks cheatsheet",
+        "chatgpt prompts",
+        "options strategies",
+        "delta gamma theta",
+        "trading pdf",
+        "ai trading tools",
+        "options analysis",
+        "covered calls",
+        "credit spreads",
+        "risk management",
+        "stock options",
+        "volatility trading"
+      ],
+      "listing_status": "draft",
+      "platforms": [],
+      "created_date": "2026-07-22T14:19:45.474820",
+      "listings_drafted": true
+    },
+    {
+      "id": "trading-command-center-notion-2026",
+      "tier": 2,
+      "name": "The AI Trading Command Center \u2014 Complete Notion Workspace for Traders",
+      "price": 47.0,
+      "format": "Notion Template (duplicate to your workspace)",
+      "seo_filename": "ai-trading-command-center-notion-template-2026",
+      "description": "The ultimate Notion workspace for serious traders. Track every trade, log backtests, monitor your portfolio, and manage your watchlist \u2014 all connected with AI-powered dashboards. Built by quant traders using real infrastructure. Includes: Trade Journal with automated P&L, Backtest Log with strategy comparison, Portfolio Tracker with allocation heatmap, Watchlist Manager with signal integration, AI Prompt Library (50 prompts pre-loaded), and an automated Performance Dashboard with weekly/monthly summaries.",
+      "compatible": [
+        "Notion (Free plan works \u2014 no paid tools required)"
+      ],
+      "worked_example": "Mike trades 15\u201320 times per month across stocks, options, and crypto. Before the Command Center, he tracked trades in a spreadsheet, backtests in a separate Notion page, and watchlist in his brokerage app \u2014 nothing connected. After importing the template: his Monday morning takes 5 minutes instead of 45. The automated dashboard shows him his win rate (62%), average R:R (1:2.3), and that Thursday is his worst-performing day (38% win rate on Thursdays vs 72% on Tuesdays). He stops trading Thursdays and his monthly P&L improves by $1,200. The AI prompt library helps him analyze setups in 90 seconds instead of 20 minutes. The entire system runs on Notion's free plan.",
+      "content_sections": [
+        "Dashboard \u2014 automated P&L, win rate, Sharpe, drawdown, best/worst day/week",
+        "Trade Journal \u2014 entry/exit, setup type, emotional state 1-5, screenshots, tags",
+        "Backtest Log \u2014 strategy name, period, Sharpe/Sortino/Calmar, correlation, notes",
+        "Portfolio Tracker \u2014 allocation by asset, sector, strategy; heatmap; rebalancing alerts",
+        "Watchlist Manager \u2014 ticker, catalyst date, setup notes, signal status, price alerts",
+        "AI Prompt Library \u2014 pre-loaded 50 options prompts from Tier 1, organized by use case",
+        "Weekly Review \u2014 automated summary from journal entries, lessons learned, plan for next week",
+        "Monthly Performance Report \u2014 auto-aggregated P&L, strategy comparison, equity curve"
+      ],
+      "tags": [
+        "trading journal notion",
+        "options trading template",
+        "portfolio tracker",
+        "backtest log",
+        "trade journal digital",
+        "notion workspace trading",
+        "stock trading dashboard",
+        "crypto portfolio tracker",
+        "ai trading tools",
+        "trading notion template"
+      ],
+      "listing_status": "draft",
+      "platforms": [],
+      "created_date": "2026-07-22T14:19:45.474820",
+      "listings_drafted": true
+    },
+    {
+      "id": "trading-command-center-premium-bundle-2026",
+      "tier": 3,
+      "name": "The AI Trading Command Center \u2014 Premium Bundle (Notion + PDF + Strategy Audit Workbook)",
+      "price": 127.0,
+      "format": "Bundle: Notion Template + PDF Cheat Sheet + Audit Workbook",
+      "seo_filename": "ai-trading-command-center-premium-bundle-2026",
+      "description": "Everything a serious trader needs. Full Notion Command Center workspace, 50-page Options Greeks Cheat Sheet + AI Prompt Pack, and the exclusive AI Trading Strategy Audit Workbook. The Audit Workbook guides you through a systematic health-check of any trading strategy: backtest validation, overfitting detection, walk-forward analysis, correlation checking, risk parameter review, and optimization suggestions. Built using the same methodology that evaluates 2,877+ strategies in the Composer.trade registry. Bonus: video walkthrough script for setting up your entire Command Center in 30 minutes.",
+      "includes": [
+        "AI Options Greeks Cheat Sheet + 50 ChatGPT Prompts for Options Traders",
+        "The AI Trading Command Center \u2014 Complete Notion Workspace for Traders",
+        "AI Trading Strategy Health-Check Audit Workbook (exclusive)",
+        "30-Minute Video Walkthrough Script"
+      ],
+      "worked_example": "Jen runs 4 options strategies across 2 accounts. She's been profitable for 6 months but doesn't know which strategy actually drives returns. She buys the Premium Bundle. First, the Audit Workbook walks her through backtest validation \u2014 she discovers Strategy #3 (iron condors on SPX) has an 84% win rate but a negative expected value because the 16% of losers wipe out all the wins. She kills Strategy #3. Then the Notion Command Center tracks her remaining 3 strategies separately \u2014 she learns Strategy #1 (covered calls on tech) generates 73% of her profits with half the capital. She reallocates. Within 60 days her monthly P&L increases from $1,400 to $2,800. The audit caught a strategy that looked good on win rate but was actually losing money \u2014 something she'd never have spotted in her spreadsheet.",
+      "tags": [
+        "trading bundle",
+        "strategy audit",
+        "notion template",
+        "options trading",
+        "portfolio management",
+        "trading journal premium",
+        "ai trading toolkit",
+        "backtest validation",
+        "trading strategy audit",
+        "trading command center"
+      ],
+      "listing_status": "draft",
+      "platforms": [],
+      "created_date": "2026-07-22T14:19:45.474820",
+      "listings_drafted": true
+    }
+  ],
+  "sales": [],
+  "total_revenue": 0,
+  "reporting_log": []
+}

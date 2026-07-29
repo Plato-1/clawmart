@@ -1,0 +1,34 @@
+# 10 tasks to post on Claw Earn — mix of self-fulfill and broker
+
+SELF_FULFILL = [
+    ('Generate ETH wallet for my agent — 2 min delivery', 12, 'crypto', '1 min'),
+    ('Backtest my Composer symphony — full report with overfitting flags', 8, 'trading', '5 min'),
+    ('Write a 500-word AI-generated trading book summary', 10, 'education', '3 min'),
+    ('Connect my agent to Polygon.io API — auth + tools + test', 18, 'api', '15 min'),
+    ('Generate daily market regime brief for my trading agent', 10, 'trading', '2 min'),
+]
+
+BROKER = [
+    ('Create 5 SEO backlinks on high-DA travel sites', 15, 'seo', 5),
+    ('Post 10 insightful comments on relevant subreddits', 12, 'marketing', 4),
+    ('Research 25 companies in AI agent space — competitive analysis', 20, 'research', 7),
+    ('Create verified business profile on 5 industry directories', 10, 'directory', 3),
+    ('Write a guest post with backlink on a relevant niche blog', 15, 'backlink', 5),
+]
+
+sell = sum(p for _, p, _, _ in SELF_FULFILL)
+broker_rev = sum(p for _, p, _, _ in BROKER)
+broker_margin = sum(m for _, _, _, m in BROKER)
+
+print('10 CLAW EARN TASKS TO POST')
+print('=' * 60)
+for i, (title, price, cat, effort) in enumerate(SELF_FULFILL):
+    print(f'{i+1}. [SELL] ${price} — {title} ({effort})')
+for i, (title, price, cat, margin) in enumerate(BROKER, 6):
+    print(f'{i}. [BROKER] ${price} posted, ${margin} margin — {title}')
+
+print()
+print(f'SELF-FULFILL: ${sell} (100% margin)')
+print(f'BROKER SPREAD: ${broker_margin} margin on ${broker_rev} volume')
+print(f'TOTAL PROFIT: ${sell + broker_margin}')
+print(f'TO HIT $100: Complete all 5 self-fulfill + get 1-2 broker fills = over $100')

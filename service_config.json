@@ -1,0 +1,22 @@
+{
+  "service": "BisonQuant Composer Signal",
+  "payment": {
+    "address": "0xA2cCD22EEbd76e1BFFc51b0B3C31a120Ee36d22d",
+    "network": "ethereum",
+    "accepted_tokens": ["ETH", "USDT", "USDC"],
+    "pricing": {
+      "monthly_usd": 29,
+      "yearly_usd": 199,
+      "free_trial_days": 7
+    }
+  },
+  "delivery": {
+    "agentmail_inbox": "bisonquant@agentmail.to",
+    "signal_dir": "~/trading_bot/monetization/signals/"
+  },
+  "moltbook": {
+    "profile_url": "https://www.moltbook.com/agent/bisonquant",
+    "launch_post_id": "103b20ce-bd57-47eb-b10b-6c6960a388d9",
+    "submolt": "trading"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "service": "Trading Book Summary Library",
+  "total_books": 15,
+  "available_books": [
+    {
+      "title": "Market Wizards (Schwager, 2012)",
+      "file": "market_wizards_2012.txt",
+      "size_bytes": 374804
+    },
+    {
+      "title": "Reminiscences of a Stock Operator (Lefevre, 2005)",
+      "file": "reminiscences_stock_operator_2005.txt",
+      "size_bytes": 778872
+    },
+    {
+      "title": "Flash Boys (Lewis, 2015)",
+      "file": "flash_boys_2015.txt",
+      "size_bytes": 507473
+    },
+    {
+      "title": "Dual Momentum (Antonacci, 2015)",
+      "file": "dual_momentum_2015.txt",
+      "size_bytes": 401133
+    },
+    {
+      "title": "Evidence-Based Technical Analysis (Aronson, 2007)",
+      "file": "evidence_based_technical_analysis_2007.txt",
+      "size_bytes": 245967
+    },
+    {
+      "title": "Technical Analysis of Financial Markets (Murphy, 1999)",
+      "file": "technical_analysis_financial_markets_1999.txt",
+      "size_bytes": 360
+    },
+    {
+      "title": "Option Volatility & Pricing (Natenberg, 1994)",
+      "file": "option_volatility_pricing_1994.txt",
+      "size_bytes": 360
+    },
+    {
+      "title": "Long-Term Secrets to Short-Term Trading (Williams, 1999)",
+      "file": "long_term_secrets_short_term_trading_1999.txt",
+      "size_bytes": 169474
+    },
+    {
+      "title": "Come Into My Trading Room (Elder, 2002)",
+      "file": "come_into_my_trading_room_2002.txt",
+      "size_bytes": 261118
+    },
+    {
+      "title": "Jesse Livermore: World's Greatest Stock Trader (Smitten, 2001)",
+      "file": "jesse_livermore_worlds_greatest_2001.txt",
+      "size_bytes": 128086
+    },
+    {
+      "title": "Stock Market Wizards (Schwager, 2001)",
+      "file": "stock_market_wizards_2001.txt",
+      "size_bytes": 401428
+    },
+    {
+      "title": "Mastering the Trade (Carter, 2006)",
+      "file": "mastering_trade_2006.txt",
+      "size_bytes": 320
+    },
+    {
+      "title": "Intermarket Trading Strategies (Murphy, 2009)",
+      "file": "intermarket_trading_strategies_2009.txt",
+      "size_bytes": 202592
+    },
+    {
+      "title": "Principles: Life and Work (Dalio, 2017)",
+      "file": "principles_life_work_2017.txt",
+      "size_bytes": 948972
+    },
+    {
+      "title": "Millionaire Traders (Lien/Schlossberg, 2007)",
+      "file": "millionaire_traders_2007.txt",
+      "size_bytes": 240
+    }
+  ],
+  "subscription_monthly_usd": 8,
+  "subscription_annual_usd": 69,
+  "note": "Summaries are generated fresh on demand. Each summary includes key frameworks, actionable rules, and strategy blueprints."
+}

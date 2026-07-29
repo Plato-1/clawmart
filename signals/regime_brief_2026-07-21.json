@@ -1,0 +1,34 @@
+{
+  "service": "Daily Market Regime Brief",
+  "date": "2026-07-21",
+  "regime": "RISK-ON",
+  "equity_allocation_pct": 100.0,
+  "recommendation": "Favor leveraged equity strategies (TQQQ, SOXL variants). Tight trailing stops recommended.",
+  "top_sectors": [
+    {
+      "ticker": "SPY",
+      "total_value": 467081.58
+    },
+    {
+      "ticker": "TQQQ",
+      "total_value": 410072.49
+    },
+    {
+      "ticker": "TECL",
+      "total_value": 392674.64
+    },
+    {
+      "ticker": "UVXY",
+      "total_value": 389108.34
+    },
+    {
+      "ticker": "SOXL",
+      "total_value": 360505.76
+    }
+  ],
+  "market_snapshot": {
+    "gainers": [],
+    "losers": []
+  },
+  "disclaimer": "Not financial advice. Paper trading only."
+}

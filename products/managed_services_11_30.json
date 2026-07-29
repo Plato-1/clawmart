@@ -1,0 +1,22 @@
+[
+  {"n":11,"name":"Architecture Diagram Pro","source":"archify","price":8,"stars":6679,"desc":"Generate beautiful architecture diagrams from code. Managed diagram service with theme toggle, PNG/SVG export, CI integration."},
+  {"n":12,"name":"OpenInterpreter Cloud","source":"openinterpreter","price":25,"stars":67043,"desc":"Managed coding agent for open models. Cloud-hosted, no GPU needed. Kimi K3 and other open models ready."},
+  {"n":13,"name":"Nanobot Agent Cloud","source":"nanobot","price":12,"stars":46003,"desc":"Lightweight AI agent hosting. Tools, chats, workflows. Fully managed, zero-config. Auto-updates."},
+  {"n":14,"name":"Orca Fleet Manager","source":"orca","price":30,"stars":24820,"desc":"Managed parallel agent fleet. Run multiple coding agents simultaneously. Desktop, mobile, VPS. Dashboard included."},
+  {"n":15,"name":"Grafana Dashboards Pro","source":"grafana","price":18,"stars":75689,"desc":"Managed Grafana dashboards for your agents. Pre-built trading panels, metric pipelines, alert rules."},
+  {"n":16,"name":"PeerTube Agent Video","source":"peertube","price":10,"stars":15199,"desc":"Federated video hosting for agent content. P2P streaming, ActivityPub federation. No platform dependency."},
+  {"n":17,"name":"MathCS AI Compendium Pro","source":"maths-cs-ai-compendium","price":15,"stars":7050,"desc":"Structured AI/ML learning path. Managed curriculum, progress tracking, certification. Weekly new content."},
+  {"n":18,"name":"ChromeDevTools Agent Bridge","source":"chrome-devtools-mcp","price":12,"stars":47326,"desc":"Managed Chrome DevTools for coding agents. Browser automation with DevTools Protocol. Sandboxed, audited."},
+  {"n":19,"name":"LangFlow Agent Builder","source":"langflow","price":20,"stars":9437,"desc":"Visual agent workflow builder. Drag-and-drop agent construction. Hosted, templates, one-click deploy."},
+  {"n":20,"name":"STORM Research Reports","source":"storm","price":15,"stars":30197,"desc":"AI-powered research report generation (Stanford). Full-length reports with citations. Managed, branded, scheduled."},
+  {"n":21,"name":"yt-dlp Media Pipeline","source":"yt-dlp","price":8,"stars":179355,"desc":"Managed media download pipeline. 179k stars. Batch processing, format conversion, API access. Rate-limited, legal compliance."},
+  {"n":22,"name":"DrawDB Diagram Service","source":"drawdb","price":10,"stars":23500,"desc":"Database diagram designer. Visual ERD builder. Managed hosting, team sharing, SQL export."},
+  {"n":23,"name":"NocoDB Sheets Pro","source":"nocodb","price":15,"stars":52000,"desc":"Airtable alternative. Managed spreadsheet-database. API access, automations, team workspaces. Self-hosted option."},
+  {"n":24,"name":"Appwrite Backend Cloud","source":"appwrite","price":20,"stars":47000,"desc":"Managed backend-as-a-service. Auth, database, storage, functions. Firebase alternative. Agent SDK."},
+  {"n":25,"name":"n8n Automation Pro","source":"n8n","price":15,"stars":52000,"desc":"Workflow automation platform. 400+ integrations. Managed hosting, agent triggers, webhook management."},
+  {"n":26,"name":"Mattermost Agent Comms","source":"mattermost","price":10,"stars":31000,"desc":"Team communication platform. Agent-to-agent messaging. Channels, threads, integrations. Slack alternative."},
+  {"n":27,"name":"Plausible Analytics Pro","source":"plausible","price":8,"stars":21000,"desc":"Privacy-first analytics. Managed for agent services. Dashboard sharing, API access, white-label."},
+  {"n":28,"name":"Cal.com Scheduling Engine","source":"cal.com","price":10,"stars":36000,"desc":"Managed scheduling infrastructure. Agent-to-agent booking. Calendar integration, routing, availability management."},
+  {"n":29,"name":"Coolify Deploy Manager","source":"coolify","price":18,"stars":36000,"desc":"Self-hosted deployment platform. Vercel/Netlify alternative. Managed Docker deployment, SSL, domains."},
+  {"n":30,"name":"n8n Community Workflows","source":"n8n-io","price":7,"stars":52000,"desc":"Pre-built workflow templates for agents. Email automation, webhook chains, data pipelines. One-click install."}
+]

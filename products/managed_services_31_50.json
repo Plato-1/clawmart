@@ -1,0 +1,22 @@
+[
+  {"n":31,"name":"Metabase Analytics Cloud","source":"metabase/metabase","price":15,"stars":41000,"desc":"Managed business intelligence. Dashboard builder, SQL queries, sharing. Agent-accessible API."},
+  {"n":32,"name":"Directus Headless CMS","source":"directus/directus","price":18,"stars":30000,"desc":"Managed headless CMS. Content API, role-based access, webhooks. Agent content management."},
+  {"n":33,"name":"Supabase Backend Pro","source":"supabase/supabase","price":25,"stars":80000,"desc":"Managed Firebase alternative. Postgres, auth, storage, real-time, edge functions. Agent-native."},
+  {"n":34,"name":"PostHog Analytics Suite","source":"posthog/posthog","price":20,"stars":24000,"desc":"Product analytics for agent services. Session recording, feature flags, A/B testing, dashboards."},
+  {"n":35,"name":"DocuSeal Signatures API","source":"docusealco/docuseal","price":12,"stars":9500,"desc":"Managed document signing. E-signatures, templates, API. Agent-to-agent agreements."},
+  {"n":36,"name":"Twenty CRM Engine","source":"twentyhq/twenty","price":20,"stars":25000,"desc":"Managed CRM for agents. Contact management, pipelines, automation. Salesforce alternative."},
+  {"n":37,"name":"Activepieces Automation","source":"activepieces/activepieces","price":12,"stars":13000,"desc":"No-code automation platform. Zapier alternative. Agent triggers, 200+ integrations, managed."},
+  {"n":38,"name":"Outline Wiki Knowledge Base","source":"outline/outline","price":10,"stars":31000,"desc":"Managed knowledge base. Agent documentation, team wiki, API access. Notion alternative."},
+  {"n":39,"name":"Baserow Database Cloud","source":"baserow/baserow","price":15,"stars":14000,"desc":"Airtable alternative. Managed database with API. Spreadsheet interface, automations, views."},
+  {"n":40,"name":"Hoppscotch API Platform","source":"hoppscotch/hoppscotch","price":10,"stars":69000,"desc":"Managed API development platform. Testing, documentation, collaboration. Postman alternative."},
+  {"n":41,"name":"Excalidraw Diagrams Pro","source":"excalidraw/excalidraw","price":8,"stars":96000,"desc":"Managed whiteboard/diagramming. Hand-drawn style, collaboration, export. Agent diagram generation."},
+  {"n":42,"name":"Jitsi Meet Video Conferencing","source":"jitsi/jitsi-meet","price":18,"stars":24000,"desc":"Managed video conferencing. Agent-to-agent meetings, recording, streaming. Zoom alternative."},
+  {"n":43,"name":"Rocket.Chat Comms Hub","source":"rocketchat/rocket.chat","price":10,"stars":42000,"desc":"Managed team communication. Agent channels, integrations, file sharing. Slack alternative."},
+  {"n":44,"name":"Uptime Kuma Monitoring","source":"louislam/uptime-kuma","price":8,"stars":67000,"desc":"Managed uptime monitoring. Status pages, alerts, multi-protocol. For agent service monitoring."},
+  {"n":45,"name":"Immersive Translate Engine","source":"immersive-translate/immersive-translate","price":12,"stars":18000,"desc":"Managed translation service. Browser extension, API, 50+ languages. Agent content localization."},
+  {"n":46,"name":"Dub Link Shortener Pro","source":"dubinc/dub","price":8,"stars":21000,"desc":"Managed link management. Custom domains, analytics, QR codes. Agent link infrastructure."},
+  {"n":47,"name":"Inbox Zero Email Manager","source":"elie222/inbox-zero","price":10,"stars":5500,"desc":"AI email management. Auto-categorize, auto-reply, newsletter cleanup. Agent inbox management."},
+  {"n":48,"name":"Trigger.dev Background Jobs","source":"triggerdotdev/trigger.dev","price":15,"stars":13000,"desc":"Managed background job platform. Scheduled tasks, event-driven, retry logic. Agent cron replacement."},
+  {"n":49,"name":"PocketBase Backend Lite","source":"pocketbase/pocketbase","price":12,"stars":47000,"desc":"Managed lightweight backend. SQLite, auth, file storage, real-time. One-file deploy."},
+  {"n":50,"name":"AFFiNE Knowledge Workspace","source":"toeverything/affine","price":15,"stars":49000,"desc":"Managed knowledge workspace. Docs, whiteboards, databases. Notion+Excalidraw combined for agents."}
+]

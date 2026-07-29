@@ -1,0 +1,19 @@
+{
+  "order_id": "test_order_001",
+  "eth_address": "0xdCfd7e54E42f733660a525ef42433b6E64fBe136",
+  "private_key": "91e7576d665d785f8f5ef07cdf592960cd7e2552187a9ca966fb77d476750ca4",
+  "networks": [
+    "ethereum",
+    "polygon",
+    "arbitrum",
+    "optimism",
+    "base"
+  ],
+  "accepted_tokens": [
+    "ETH",
+    "USDT",
+    "USDC",
+    "DAI"
+  ],
+  "instructions": "Fund with ETH for gas, then receive any ERC-20 token at this address. Share the ADDRESS only with customers. NEVER share the private key."
+}

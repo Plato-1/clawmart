@@ -1,0 +1,76 @@
+{
+  "service": "BisonQuant Composer Signal",
+  "generated": "2026-07-21",
+  "disclaimer": "Not financial advice. Paper-trading signals only. Past performance does not guarantee future results.",
+  "section_1_top5_rotation": [
+    {
+      "rank": 1,
+      "name": "Simons KMLM switcher (single pops)| BT 4/13/22 = A.R. 466% / D.D. 22% V2",
+      "ann_return_pct": 319.2,
+      "years": 3.1,
+      "id": "u5iBJE751BM5FKPRJvKf"
+    },
+    {
+      "rank": 2,
+      "name": "The Gold Digger But 2x & Longer BT This Time and Oh Boy",
+      "ann_return_pct": 290.1,
+      "years": 3.1,
+      "id": "W8hpiheymHgbJ1iQjutP"
+    },
+    {
+      "rank": 3,
+      "name": "zoop frontruns SOXL (Longer Backtest)",
+      "ann_return_pct": 252.0,
+      "years": 3.1,
+      "id": "5yuGmGM74YmAO9JiUiyx"
+    },
+    {
+      "rank": 4,
+      "name": "Enhanced Strategy with Leveraged Assets",
+      "ann_return_pct": 248.0,
+      "years": 4.0,
+      "id": "x6j9BjSLk34Zekc89B20"
+    },
+    {
+      "rank": 5,
+      "name": "Wooden ARKK Machine 2.2 w/ 2.2a 5percent",
+      "ann_return_pct": 237.7,
+      "years": 4.2,
+      "id": "VtcJ5UBQaGdmYLAeuq70"
+    }
+  ],
+  "section_2_regime": {
+    "current_regime": "risk-on",
+    "equity_allocation_pct": 100.0,
+    "recommendation": "Favor high-beta levered strategies (TQQQ, SOXL variants) with tight trailing stops"
+  },
+  "section_3_risk_dashboard": {
+    "total_portfolio_value": 531514.36,
+    "total_pnl": -9653.29,
+    "total_pnl_pct": -1.82,
+    "largest_drawdowns": [
+      {
+        "name": "Latrell Top 3 Merged (Buy Copy)",
+        "pnl_pct": -74.8,
+        "value": 252.3
+      },
+      {
+        "name": "BisonQuant Remix Latrell Top 3 Merged",
+        "pnl_pct": -74.6,
+        "value": 253.61
+      },
+      {
+        "name": "Latrell Top 3 Merged (Buy Copy)",
+        "pnl_pct": -63.4,
+        "value": 365.64
+      }
+    ]
+  },
+  "section_4_blend_of_the_week": {
+    "name": "KMLM + Gold Digger (65/35) \u2014 the Calmar-optimal pair",
+    "ann_return_3yr": 358.4,
+    "max_dd_pct": 19.0,
+    "calmar": 18.85,
+    "rationale": "Negative-correlated managed-futures + gold-miner volatility pair with 3yr verified backtest. Best risk-adjusted blend in the registry."
+  }
+}

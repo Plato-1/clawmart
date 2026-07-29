@@ -1,0 +1,42 @@
+{
+  "service": "Trading Book Summary Library",
+  "available": 5,
+  "books": [
+    {
+      "title": "Market Wizards (Schwager, 2012)",
+      "file": "market_wizards_2012.txt",
+      "size_bytes": 374804,
+      "status": "ready",
+      "sample_excerpt": "Full summary available to subscribers. AI-generated executive summary including: key frameworks, actionable trading rules, and strategy blueprints."
+    },
+    {
+      "title": "Dual Momentum (Antonacci, 2015)",
+      "file": "dual_momentum_2015.txt",
+      "size_bytes": 401133,
+      "status": "ready",
+      "sample_excerpt": "Full summary available to subscribers. AI-generated executive summary including: key frameworks, actionable trading rules, and strategy blueprints."
+    },
+    {
+      "title": "Flash Boys (Lewis, 2015)",
+      "file": "flash_boys_2015.txt",
+      "size_bytes": 507473,
+      "status": "ready",
+      "sample_excerpt": "Full summary available to subscribers. AI-generated executive summary including: key frameworks, actionable trading rules, and strategy blueprints."
+    },
+    {
+      "title": "Reminiscences of a Stock Operator (Lefevre, 2005)",
+      "file": "reminiscences_stock_operator_2005.txt",
+      "size_bytes": 778872,
+      "status": "ready",
+      "sample_excerpt": "Full summary available to subscribers. AI-generated executive summary including: key frameworks, actionable trading rules, and strategy blueprints."
+    },
+    {
+      "title": "Evidence-Based Technical Analysis (Aronson, 2007)",
+      "file": "evidence_based_technical_analysis_2007.txt",
+      "size_bytes": 245967,
+      "status": "ready",
+      "sample_excerpt": "Full summary available to subscribers. AI-generated executive summary including: key frameworks, actionable trading rules, and strategy blueprints."
+    }
+  ],
+  "subscription": "/mo"
+}

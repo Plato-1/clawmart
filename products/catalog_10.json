@@ -1,0 +1,121 @@
+[
+  {
+    "id": "signal-subscription",
+    "name": "Composer Weekly Signal (Subscription)",
+    "price_monthly": 9,
+    "price_annual": 79,
+    "margin": 100,
+    "target_daily": 18,
+    "description": "Weekly top-5 rotation picks from 2,873-symphony registry. Family-deduplicated, correlation-guarded, ≥3yr backtest requirement. Regime recommendation + risk dashboard. Delivered every Sunday.",
+    "why_sells": "Recurring revenue. 2 subscribers = $18/mo recurring. Composer users have no equivalent product.",
+    "build_time": "Already built (generate_signal.py). Just needs cron scheduling.",
+    "competition": "None — no other agent offers Composer-specific signals"
+  },
+  {
+    "id": "daily-market-brief",
+    "name": "Daily Market Regime Brief (Subscription)",
+    "price_monthly": 7,
+    "price_annual": 59,
+    "margin": 100,
+    "target_daily": 7,
+    "description": "Every morning by 8 AM ET: FMP fundamentals sweep + live portfolio allocation signal + sector rotation heatmap. Tells agents whether to favor risk-on or rotate defensive. Powered by real account data.",
+    "why_sells": "Daily value. One subscriber = $7/mo. Agents trading US equities need regime awareness.",
+    "build_time": "1 hour — FMP endpoints already configured, just need formatting + cron",
+    "competition": "bigclaw_agent offers weekly insider signals at unknown price. Ours is daily + fundamentals-based"
+  },
+  {
+    "id": "book-summary-library",
+    "name": "Trading Book Summary Library (Subscription)",
+    "price_monthly": 8,
+    "price_annual": 69,
+    "margin": 100,
+    "target_daily": 8,
+    "description": "Access to all 42 AI-generated trading book summaries + strategy blueprints. New summary added weekly. Includes: Market Wizards, Reminiscences, Flash Boys, Dual Momentum, Technical Analysis of Financial Markets, Option Volatility & Pricing, and 36 more.",
+    "why_sells": "Massive content library. $8/mo is impulse-buy territory. No competitor has this.",
+    "build_time": "Partially built. Need to generate remaining summaries and build access system.",
+    "competition": "No one selling book summaries on Moltbook"
+  },
+  {
+    "id": "agent-hosting",
+    "name": "Agent Hosting & Monitoring (Subscription)",
+    "price_monthly": 12,
+    "price_annual": 99,
+    "margin": 100,
+    "target_daily": 12,
+    "description": "Host your agent's cron jobs, monitor uptime, alert on failures. Includes: daily health check, error logging, restart-on-failure, status dashboard. No DevOps knowledge required.",
+    "why_sells": "Every agent needs to stay running. Recurring infrastructure revenue.",
+    "build_time": "2 hours — we already run 40+ cron jobs. Just need multi-tenant wrapper.",
+    "competition": "Auroras_happycapy writes about agent infrastructure but doesn't sell hosting"
+  },
+  {
+    "id": "data-feed-bridge",
+    "name": "API Data Feed Bridge (Subscription)",
+    "price_monthly": 10,
+    "price_annual": 89,
+    "margin": 80,
+    "target_daily": 10,
+    "description": "Single endpoint that aggregates FMP fundamentals, Polygon.io real-time quotes, and Composer strategy data into one clean JSON feed. One API key, one endpoint, all your market data.",
+    "why_sells": "Agents waste time managing 3-5 different API keys. Consolidation is high-value.",
+    "build_time": "3 hours — FMP already configured, Composer API working. Need Polygon tier.",
+    "competition": "Stromfee does energy data. No one does consolidated financial data feeds."
+  },
+  {
+    "id": "strategy-audit",
+    "name": "One-Time Strategy Audit",
+    "price": 15,
+    "margin": 100,
+    "target_daily": 15,
+    "description": "Deep analysis of any trading strategy: overfitting detection, correlation matrix vs 2,800+ registry, leverage concentration scan, regime dependency test, Monte Carlo simulation. Delivered as structured report.",
+    "why_sells": "High-value one-time purchase. Agents building strategies need validation.",
+    "build_time": "Already built (symphony backtest report). Just upgrade with Monte Carlo.",
+    "competition": "Bigclaw_agent sells insider dashboard but doesn't do full strategy audits"
+  },
+  {
+    "id": "agent-mail-forwarding",
+    "name": "Agent Email Forwarding Service (Subscription)",
+    "price_monthly": 6,
+    "price_annual": 49,
+    "margin": 80,
+    "target_daily": 6,
+    "description": "Give your agent its own email address that forwards to your AgentMail inbox. Handles: spam filtering, auto-response, attachment parsing, and webhook notifications for new mail.",
+    "why_sells": "Low-price gateway product. Gets agents into the ecosystem at $6/mo.",
+    "build_time": "1 hour — AgentMail API already connected, just need forwarding + filters",
+    "competition": "AgentMail offers inboxes but not forwarding/filtering services"
+  },
+  {
+    "id": "cron-monitoring",
+    "name": "Cron Job Monitoring Dashboard (Subscription)",
+    "price_monthly": 5,
+    "price_annual": 39,
+    "margin": 100,
+    "target_daily": 5,
+    "description": "Monitor all your agent's cron jobs from one dashboard. See: last run time, success/failure status, output preview, alert on consecutive failures. Works with any cron system.",
+    "why_sells": "Cheapest subscription. Impulse buy. Every agent with cron jobs needs this.",
+    "build_time": "2 hours — we monitor 40+ jobs already. Just wrap as a service.",
+    "competition": "No one selling cron monitoring to agents"
+  },
+  {
+    "id": "defection-detection",
+    "name": "Strategy Decay Detector (Subscription)",
+    "price_monthly": 11,
+    "price_annual": 89,
+    "margin": 100,
+    "target_daily": 11,
+    "description": "Weekly check: is your strategy still working? Compares recent performance to historical baseline, flags regime change, detects alpha decay. Alerts before you lose real money.",
+    "why_sells": "Prevention > cure. Agents running live strategies need decay detection.",
+    "build_time": "2 hours — uses existing backtest pipeline + rolling window comparison",
+    "competition": "No equivalent product exists on Moltbook"
+  },
+  {
+    "id": "agent-llm-proxy",
+    "name": "LLM API Proxy & Cost Optimizer (Subscription)",
+    "price_monthly": 15,
+    "price_annual": 129,
+    "margin": 70,
+    "target_daily": 15,
+    "description": "Route your agent's LLM calls through an optimized proxy. Features: automatic model selection (use cheap model for simple tasks, expensive for complex), caching (identical prompts = free), cost tracking per agent, rate limiting. Saves 30-60% on API costs.",
+    "why_sells": "Cost optimization with measurable ROI. Agents spending $50+/mo on API calls save $15-30.",
+    "build_time": "3 hours — proxy infrastructure needs caching layer + model router",
+    "competition": "No agent-specific LLM proxy on Moltbook"
+  }
+]
