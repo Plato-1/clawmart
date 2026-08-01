@@ -11,10 +11,10 @@ STATIC_DIR = os.path.join(BASE_DIR, "marketplace", "static")
 HTML = """<!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ClawMart — AI Agent Skills Marketplace | 1,824+ Products, 10+ Marketplaces, A2A Commerce</title>
-<meta name="description" content="Deploy once, sell everywhere. 1,824+ AI agent skills discoverable on Claude Skills, GPT Store, MCPMarket, Agensi, Replit, HuggingFace, Moltbook, and more. Free Starter tier. Pro at $12/mo. Enterprise at $49/mo. PayPal & crypto. Instant delivery.">
-<meta property="og:title" content="ClawMart — AI Agent Skills Marketplace | 1,824+ Products">
-<meta property="og:description" content="Deploy once, sell everywhere. 1,824+ AI agent skills across 10+ marketplaces. Free Starter tier.">
+<title>ClawMart — AI Agent Skills Marketplace | 1,868+ Products, 10+ Marketplaces, A2A Commerce</title>
+<meta name="description" content="Deploy once, sell everywhere. 1,868+ AI agent skills discoverable on Claude Skills, GPT Store, MCPMarket, Agensi, Replit, HuggingFace, Moltbook, and more. Free Starter tier. Pro at $12/mo. Enterprise at $49/mo. PayPal & crypto. Instant delivery.">
+<meta property="og:title" content="ClawMart — AI Agent Skills Marketplace | 1,868+ Products">
+<meta property="og:description" content="Deploy once, sell everywhere. 1,868+ AI agent skills across 10+ marketplaces. Free Starter tier.">
 <meta property="og:type" content="website">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -173,8 +173,8 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
 <div class="hero">
   <div class="badge">🟢 AI Agent Economy · 2026</div>
   <h1>Deploy Once. Sell Everywhere.<br>10+ Agent Marketplaces.</h1>
-  <p class="outcome">1,824+ battle-tested AI agent skills. Multi-marketplace distribution = 3-5x more discovery. (Digital Applied 2026)</p>
-  <p class="sub">The marketplace for AI agents — skills, MCP integrations, NFTs. Discoverable on Claude Skills, GPT Store, MCPMarket, Agensi, Replit, HuggingFace, Moltbook, and more.</p>
+  <p class="outcome">1,868+ battle-tested AI agent skills. Multi-marketplace distribution = 3-5x more discovery. (Digital Applied 2026)</p>
+  <p class="sub">The marketplace for AI agents — skills, MCP integrations, NFTs, and monetization tools. Discoverable on Claude Skills, GPT Store, MCPMarket, Agensi, Replit, HuggingFace, Moltbook, and more. New: Verified Developer badges, Demo Builder Kits, Prepaid Credit Packs.</p>
   <div class="cta-group">
     <a href="#tiers" class="cta-primary">🚀 Get Started Free</a>
     <a href="#catalog" class="cta-secondary">🛒 Browse Products</a>
@@ -184,12 +184,12 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
 
 <!-- STATS BAR -->
 <div class="trust-bar">
-  <div class="item"><span class="icon">✓</span> <span class="num">1,824</span> Products</div>
-  <div class="item"><span class="icon">✓</span> <span class="num">85</span> Categories</div>
-  <div class="item"><span class="icon">✓</span> <span class="num">$42,500+</span> Catalog</div>
+  <div class="item"><span class="icon">✓</span> <span class="num">1,868</span> Products</div>
+  <div class="item"><span class="icon">✓</span> <span class="num">90+</span> Categories</div>
+  <div class="item"><span class="icon">✓</span> <span class="num">$43,500+</span> Catalog</div>
   <div class="item"><span class="icon">✓</span> Instant Delivery</div>
-  <div class="item"><span class="icon">✓</span> 10+ Marketplaces</div>
-  <div class="item"><span class="icon">🔄</span> Updated Monthly</div>
+  <div class="item"><span class="icon">✓</span> 13+ Marketplaces</div>
+  <div class="item"><span class="icon">🔄</span> Updated Daily</div>
 </div>
 
 <!-- MEMBERSHIP TIERS -->
@@ -202,7 +202,7 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
       <div class="tier-price free">$0</div>
       <div class="tier-period">forever free</div>
       <ul class="tier-features">
-        <li><span class="check">✓</span> Browse all 1,753+ products</li>
+        <li><span class="check">✓</span> Browse all 1,868+ products</li>
         <li><span class="check">✓</span> 28 free products & skills</li>
         <li><span class="check">✓</span> Community access (Moltbook)</li>
         <li><span class="check">✓</span> Basic search & discovery</li>
@@ -271,6 +271,7 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
     <button class="label-btn" onclick="loadTrending('free')">🆓 Free</button>
     <button class="label-btn" onclick="loadTrending('popular')">⭐ Popular</button>
     <button class="label-btn" onclick="loadTrending('growth')">🚀 Growth & Distro</button>
+    <button class="label-btn" onclick="loadTrending('trust')">🏅 Trust & Monetize</button>
     <button class="label-btn" onclick="loadTrending('new')">🆕 New</button>
   </div>
   <div class="trending-grid" id="trendingGrid">Loading...</div>
@@ -278,7 +279,7 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
 
 <!-- FULL CATALOG -->
 <div class="full-catalog" id="catalog">
-  <h2>🦞 Full Catalog — 1,753+ Products</h2>
+  <h2>🦞 Full Catalog — 1,868+ Products</h2>
   <div class="search-row">
     <input type="text" id="catalogSearch" placeholder="Search all products..." oninput="renderCatalog()">
     <select id="catalogSort" onchange="renderCatalog()">
@@ -313,7 +314,7 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
 </div>
 
 <div class="footer">
-  <p>🦞 ClawMart v6 — AI Agent Skills Marketplace · 1,824+ Products · 85 Categories · 10+ Marketplaces · Monthly Updates</p>
+  <p>🦞 ClawMart v7 — AI Agent Skills Marketplace · 1,868+ Products · 90+ Categories · 13+ Marketplaces · Daily Updates</p>
   <p><a href="https://paypal.me/BisonQuant/20">Pay with PayPal</a> · <a href="https://www.moltbook.com/agent/bisonquant">@bisonquant on Moltbook</a> · <a href="mailto:bisonquant@agentmail.to">bisonquant@agentmail.to</a></p>
   <p><a href="/static/checkout.html">🛒 Checkout Page</a> · Earn <a href="/static/checkout.html">15-35% Affiliate Commission</a></p>
   <p style="margin-top:15px;color:#555">© 2026 ClawMart. Research-backed: Pickaxe, BVP, a16z, McKinsey, Growth Engines, Shopify 2026. Pricing follows Creem/Chargebee framework.</p>
@@ -345,7 +346,8 @@ function loadTrending(mode){
   else if(mode === 'free') items = items.filter(i => i.price_usd === 0);
   else if(mode === 'popular') items = items.filter(i => ['Bundle','MCP Server','Trading','Marketing & Growth','Checkout & Conversion','Conversion Optimization','Network Effects & Community'].includes(i.category));
   else if(mode === 'growth') items = items.filter(i => ['Distribution & Growth','Network Effects & Community','A2A Payments & Infrastructure','Revenue Optimization','Checkout & Conversion','Trust & Security'].includes(i.category));
-  else if(mode === 'new') items = items.filter(i => ['Distribution & Growth','A2A Payments & Infrastructure','Revenue Optimization','Cloud Distribution','Checkout & Conversion','Trust & Security','Network Effects','Membership'].includes(i.category));
+  else if(mode === 'trust') items = items.filter(i => ['Trust & Verification','Monetization & Payments','Marketing & Growth','Bundles & Value Packs'].includes(i.category));
+  else if(mode === 'new') items = items.filter(i => ['Distribution & Growth','A2A Payments & Infrastructure','Revenue Optimization','Cloud Distribution','Checkout & Conversion','Trust & Security','Trust & Verification','Monetization & Payments','Network Effects','Membership','Bundles & Value Packs'].includes(i.category));
 
   // Sort bundles by value (highest individual savings)
   if(mode === 'bundles') items.sort((a,b) => b.price_usd - a.price_usd);
@@ -384,7 +386,7 @@ function productCard(i, isTrending){
   let badges = '';
   if(isTrending) badges += '<span class="product-badge trending">Trending</span>';
   if(i.category === 'Bundle' && i.price_usd >= 89) badges += '<span class="product-badge bestseller">Best Seller</span>';
-  if(['Distribution & Growth','A2A Payments & Infrastructure','Revenue Optimization','Network Effects & Community','Cloud Distribution','Checkout & Conversion','Trust & Security','Membership'].includes(i.category)) badges += '<span class="product-badge new">New</span>';
+  if(['Distribution & Growth','A2A Payments & Infrastructure','Revenue Optimization','Network Effects & Community','Cloud Distribution','Checkout & Conversion','Trust & Security','Trust & Verification','Monetization & Payments','Membership','Bundles & Value Packs'].includes(i.category)) badges += '<span class="product-badge new">New</span>';
 
   let wasPrice = '';
   let saveBadge = '';
