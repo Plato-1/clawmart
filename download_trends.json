@@ -1,0 +1,28 @@
+{
+  "generated": "2026-08-02T07:01:35.234229",
+  "current_platforms": {
+    "clawhub": {
+      "warrior-trading": "?",
+      "trading-book-library": "?",
+      "indicator-lab": "?",
+      "quiver-quantitative": "?"
+    },
+    "agensi": {
+      "all_pending": true,
+      "note": "9 submitted, awaiting activation"
+    },
+    "skilldock": {
+      "status": "Not yet listed"
+    }
+  },
+  "trending_keywords": [
+    "trading automation",
+    "quant finance",
+    "portfolio optimization",
+    "risk management",
+    "market intelligence",
+    "day trading"
+  ],
+  "recommendation": "Invest in skills matching trending keywords",
+  "tracking_setup": "Cron every 6 hours pulls download counts from each API"
+}

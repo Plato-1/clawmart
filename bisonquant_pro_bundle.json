@@ -1,0 +1,51 @@
+{
+  "name": "BisonQuant Pro \u2014 Complete Trading Suite",
+  "price": 99,
+  "included_skills": [
+    {
+      "name": "warrior-trading",
+      "regular_price": 19
+    },
+    {
+      "name": "trading-book-library",
+      "regular_price": 29
+    },
+    {
+      "name": "composer-optimizer",
+      "regular_price": 29
+    },
+    {
+      "name": "raam-portfolio",
+      "regular_price": 25
+    },
+    {
+      "name": "risk-toolkit",
+      "regular_price": 19
+    },
+    {
+      "name": "signal-pipeline",
+      "regular_price": 25
+    },
+    {
+      "name": "quant-screener",
+      "regular_price": 15
+    },
+    {
+      "name": "indicator-lab",
+      "regular_price": 19
+    },
+    {
+      "name": "market-intelligence",
+      "regular_price": 25
+    },
+    {
+      "name": "warrior-scanner",
+      "regular_price": 15
+    }
+  ],
+  "individual_total": 220,
+  "bundle_savings": 121,
+  "generated": "2026-08-02T07:01:35.235228",
+  "savings_pct": 55.0,
+  "value_prop": "10 skills for $99 (save $121 \u2014 55.0% off)"
+}

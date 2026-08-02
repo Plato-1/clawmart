@@ -1,0 +1,36 @@
+{
+  "generated": "2026-08-02T07:01:35.236226",
+  "keywords_to_target": [
+    "trading",
+    "quant",
+    "backtest",
+    "portfolio",
+    "risk management",
+    "market data",
+    "technical analysis",
+    "day trading",
+    "momentum",
+    "asset allocation",
+    "prediction markets",
+    "crypto trading"
+  ],
+  "listing_best_practices": [
+    "Include all target keywords in SKILL.md description",
+    "Use specific trigger phrases (e.g., \"when user wants to backtest\")",
+    "Add usage examples showing real-world value",
+    "Include emoji for visual distinction in search results",
+    "Tag skills with multiple relevant categories"
+  ],
+  "engagement_signals": [
+    "Downloads (hardest to fake = highest weight)",
+    "Ratings and reviews",
+    "Skill completeness (scripts + references + templates)",
+    "Regular updates (active maintenance signals quality)"
+  ],
+  "recommended_actions": [
+    "Add scripts/ to all skills (currently some are SKILL.md only)",
+    "Request reviews from early users",
+    "Update skills weekly (even minor version bumps show activity)",
+    "Cross-link skills in descriptions (\"pairs well with X\")"
+  ]
+}

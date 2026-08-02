@@ -1,0 +1,50 @@
+{
+  "generated": "2026-08-02T07:01:35.232227",
+  "competitors": {
+    "clawhub_finance": {
+      "avg_price": 15,
+      "median_price": 12,
+      "count": 311,
+      "top_sellers": [
+        {
+          "name": "BankrBot",
+          "price": 25
+        },
+        {
+          "name": "Alpaca Trading",
+          "price": 15
+        }
+      ],
+      "our_position": "Our avg price: $20 vs market avg: $15"
+    },
+    "agensi_finance": {
+      "avg_price": 20,
+      "median_price": 15,
+      "count": 66,
+      "top_sellers": [
+        {
+          "name": "Portfolio Watcher",
+          "price": 25
+        },
+        {
+          "name": "Stock Analysis",
+          "price": 20
+        }
+      ],
+      "our_position": "We own 13/66 = 20% of finance category"
+    },
+    "skilldock": {
+      "avg_price": 18,
+      "count": 0,
+      "opportunity": "ZERO listings in our niche. First-mover advantage."
+    }
+  },
+  "pricing_recommendations": [
+    "trading-book-library: Consider $24-$29 range, above market avg",
+    "market-intelligence: Consider $20-$25 range, above market avg",
+    "composer-optimizer: Consider $24-$29 range, above market avg",
+    "raam-portfolio: Consider $20-$25 range, above market avg",
+    "signal-pipeline: Consider $20-$25 range, above market avg"
+  ],
+  "best_pricing_strategy": "Premium tier ($19-29) for unique skills, mid tier ($10-15) for commodity skills"
+}

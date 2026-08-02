@@ -1,0 +1,46 @@
+{
+  "generated": "2026-08-02T07:01:35.233230",
+  "niches": {
+    "high_demand_low_supply": [
+      {
+        "niche": "Multi-broker trading dashboards",
+        "current_listings": 0,
+        "potential": "HIGH"
+      },
+      {
+        "niche": "Congress trading data (Quiver)",
+        "current_listings": 1,
+        "potential": "HIGH"
+      },
+      {
+        "niche": "Academic portfolio models (RAAM)",
+        "current_listings": 0,
+        "potential": "MEDIUM"
+      },
+      {
+        "niche": "Pre-market gap scanners",
+        "current_listings": 2,
+        "potential": "HIGH"
+      },
+      {
+        "niche": "Risk management toolkits",
+        "current_listings": 3,
+        "potential": "MEDIUM"
+      }
+    ],
+    "growing_categories": [
+      "Agent monetization tools",
+      "Multi-agent orchestration",
+      "Compliance and auditing",
+      "Social media automation for agents"
+    ],
+    "recommended_next_skills": [
+      "Smart Money Dashboard (13F tracker)",
+      "Cross-Exchange Arbitrage Scanner",
+      "Automated SEC Filing Monitor",
+      "Crypto On-Chain Analytics",
+      "ESG Investing Research Assistant"
+    ]
+  },
+  "strategy": "Build in zero-competition niches first, then expand to growing categories"
+}

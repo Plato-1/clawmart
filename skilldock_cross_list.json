@@ -1,0 +1,229 @@
+{
+  "generated": "2026-08-02T07:01:35.231221",
+  "total_skills": 13,
+  "listings": [
+    {
+      "name": "warrior-trading",
+      "current_price": 19,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "trading-book-library",
+      "current_price": 29,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "quiver-quantitative",
+      "current_price": 15,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "indicator-lab",
+      "current_price": 19,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "agent-monetization",
+      "current_price": 19,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "market-intelligence",
+      "current_price": 25,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "fable-method",
+      "current_price": 10,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "composer-optimizer",
+      "current_price": 29,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "warrior-scanner",
+      "current_price": 15,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "raam-portfolio",
+      "current_price": 25,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "risk-toolkit",
+      "current_price": 19,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "signal-pipeline",
+      "current_price": 25,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "HIGH"
+    },
+    {
+      "name": "quant-screener",
+      "current_price": 15,
+      "current_platforms": [
+        "clawhub",
+        "agensi"
+      ],
+      "recommended_platforms": [
+        "clawhub",
+        "agensi",
+        "skilldock",
+        "claude-code",
+        "codex-cli"
+      ],
+      "cross_list_status": "PENDING",
+      "priority": "MEDIUM"
+    }
+  ],
+  "action": "Cross-list all 13 via SkillDock API or manual manifest upload",
+  "potential_audience_increase": "3x (adds OpenClaw + Claude Code + Codex users)"
+}

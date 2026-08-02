@@ -1,0 +1,257 @@
+{
+  "generated": "2026-08-02T07:01:35.233230",
+  "variants": {
+    "warrior-trading": {
+      "base_skill": "warrior-trading",
+      "platforms": {
+        "clawhub": {
+          "manifest_format": "claw.json",
+          "price": 19,
+          "frontmatter": {
+            "name": "warrior-trading",
+            "version": "1.0.0",
+            "platform": "clawhub"
+          }
+        },
+        "agensi": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "warrior-trading",
+            "version": "1.0.0",
+            "platform": "agensi"
+          }
+        },
+        "skilldock": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "warrior-trading",
+            "version": "1.0.0",
+            "platform": "skilldock"
+          }
+        },
+        "claude-code": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "warrior-trading",
+            "version": "1.0.0",
+            "platform": "claude-code"
+          }
+        },
+        "codex-cli": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "warrior-trading",
+            "version": "1.0.0",
+            "platform": "codex-cli"
+          }
+        }
+      }
+    },
+    "trading-book-library": {
+      "base_skill": "trading-book-library",
+      "platforms": {
+        "clawhub": {
+          "manifest_format": "claw.json",
+          "price": 29,
+          "frontmatter": {
+            "name": "trading-book-library",
+            "version": "1.0.0",
+            "platform": "clawhub"
+          }
+        },
+        "agensi": {
+          "manifest_format": "SKILL.md",
+          "price": 29,
+          "frontmatter": {
+            "name": "trading-book-library",
+            "version": "1.0.0",
+            "platform": "agensi"
+          }
+        },
+        "skilldock": {
+          "manifest_format": "SKILL.md",
+          "price": 29,
+          "frontmatter": {
+            "name": "trading-book-library",
+            "version": "1.0.0",
+            "platform": "skilldock"
+          }
+        },
+        "claude-code": {
+          "manifest_format": "SKILL.md",
+          "price": 29,
+          "frontmatter": {
+            "name": "trading-book-library",
+            "version": "1.0.0",
+            "platform": "claude-code"
+          }
+        },
+        "codex-cli": {
+          "manifest_format": "SKILL.md",
+          "price": 29,
+          "frontmatter": {
+            "name": "trading-book-library",
+            "version": "1.0.0",
+            "platform": "codex-cli"
+          }
+        }
+      }
+    },
+    "quiver-quantitative": {
+      "base_skill": "quiver-quantitative",
+      "platforms": {
+        "clawhub": {
+          "manifest_format": "claw.json",
+          "price": 15,
+          "frontmatter": {
+            "name": "quiver-quantitative",
+            "version": "1.0.0",
+            "platform": "clawhub"
+          }
+        },
+        "agensi": {
+          "manifest_format": "SKILL.md",
+          "price": 15,
+          "frontmatter": {
+            "name": "quiver-quantitative",
+            "version": "1.0.0",
+            "platform": "agensi"
+          }
+        },
+        "skilldock": {
+          "manifest_format": "SKILL.md",
+          "price": 15,
+          "frontmatter": {
+            "name": "quiver-quantitative",
+            "version": "1.0.0",
+            "platform": "skilldock"
+          }
+        },
+        "claude-code": {
+          "manifest_format": "SKILL.md",
+          "price": 15,
+          "frontmatter": {
+            "name": "quiver-quantitative",
+            "version": "1.0.0",
+            "platform": "claude-code"
+          }
+        },
+        "codex-cli": {
+          "manifest_format": "SKILL.md",
+          "price": 15,
+          "frontmatter": {
+            "name": "quiver-quantitative",
+            "version": "1.0.0",
+            "platform": "codex-cli"
+          }
+        }
+      }
+    },
+    "indicator-lab": {
+      "base_skill": "indicator-lab",
+      "platforms": {
+        "clawhub": {
+          "manifest_format": "claw.json",
+          "price": 19,
+          "frontmatter": {
+            "name": "indicator-lab",
+            "version": "1.0.0",
+            "platform": "clawhub"
+          }
+        },
+        "agensi": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "indicator-lab",
+            "version": "1.0.0",
+            "platform": "agensi"
+          }
+        },
+        "skilldock": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "indicator-lab",
+            "version": "1.0.0",
+            "platform": "skilldock"
+          }
+        },
+        "claude-code": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "indicator-lab",
+            "version": "1.0.0",
+            "platform": "claude-code"
+          }
+        },
+        "codex-cli": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "indicator-lab",
+            "version": "1.0.0",
+            "platform": "codex-cli"
+          }
+        }
+      }
+    },
+    "agent-monetization": {
+      "base_skill": "agent-monetization",
+      "platforms": {
+        "clawhub": {
+          "manifest_format": "claw.json",
+          "price": 19,
+          "frontmatter": {
+            "name": "agent-monetization",
+            "version": "1.0.0",
+            "platform": "clawhub"
+          }
+        },
+        "agensi": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "agent-monetization",
+            "version": "1.0.0",
+            "platform": "agensi"
+          }
+        },
+        "skilldock": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "agent-monetization",
+            "version": "1.0.0",
+            "platform": "skilldock"
+          }
+        },
+        "claude-code": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "agent-monetization",
+            "version": "1.0.0",
+            "platform": "claude-code"
+          }
+        },
+        "codex-cli": {
+          "manifest_format": "SKILL.md",
+          "price": 19,
+          "frontmatter": {
+            "name": "agent-monetization",
+            "version": "1.0.0",
+            "platform": "codex-cli"
+          }
+        }
+      }
+    }
+  },
+  "effort": "Write once, generate 5 manifests via template",
+  "benefit": "Same skill reaches 5x audience with zero code change"
+}

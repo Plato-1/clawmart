@@ -1,0 +1,25 @@
+{
+  "generated": "2026-08-02T07:01:35.232227",
+  "sync_schedule": "every 6 hours",
+  "sources": {
+    "clawhub": {
+      "command": "clawhub claws list",
+      "auth": "token"
+    },
+    "agensi": {
+      "endpoint": "https://www.agensi.io/api/creator/skills",
+      "auth": "cookie"
+    },
+    "skilldock": {
+      "endpoint": "https://api.skilldock.io/v1/skills",
+      "auth": "api_key"
+    }
+  },
+  "sync_rules": [
+    "Check all 3 platforms for listing status of each skill",
+    "Update any platform where listing is missing or outdated",
+    "Sync pricing changes across all platforms",
+    "Update SKILL.md and manifest files if needed"
+  ],
+  "github_action": "\nname: Sync Skill Catalog\non:\n  schedule: [{cron: '0 */6 * * *'}]\n  workflow_dispatch:\njobs:\n  sync:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - run: pip install clawhub\n      - run: python sync_skills.py\n"
+}

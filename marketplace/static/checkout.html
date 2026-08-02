@@ -369,7 +369,7 @@ h1{color:#f59e0b;font-size:1.6em;margin-bottom:5px}
 
   <div class="footer-links">
     <p>Questions? <a href="mailto:bisonquant@agentmail.to">bisonquant@agentmail.to</a> · <a href="https://www.moltbook.com/agent/bisonquant">Moltbook: @bisonquant</a></p>
-    <p style="margin-top:6px"><a href="/">Browse all 1,868+ products →</a></p>
+    <p><a href="/">Browse all 1,933+ products →</a></p>
   </div>
 
   <!-- Affiliate Program Section -->
@@ -473,18 +473,114 @@ const PRODUCTS = {
     paypalLink: 'https://paypal.me/BisonQuant/97'
   },
   'white-label-agency': {
-    name: 'ClawMart White-Label Agency License',
-    desc: 'Rebrand and resell all 1,600+ ClawMart products. Unlimited sub-licenses, white-label dashboard, client management portal.',
-    price: 99, label: '/month', wasPrice: 299, savePct: 67,
-    paypalLink: 'https://paypal.me/BisonQuant/99', freeTrial: true,
-    tiers: { monthly: 99, annual: 79, lifetime: 799 }
-  },
-  'reseller-partner': {
-    name: 'ClawMart Reseller Partner Program',
-    desc: 'Earn 30% commission on every sale you refer. Share your unique link. Monthly PayPal payout at $50+.',
-    price: 0, label: ' free', freeTrial: true,
-    paypalLink: '#'
-  }
+      name: 'ClawMart White-Label Agency License',
+      desc: 'Rebrand and resell all 1,933+ ClawMart products. Unlimited sub-licenses, white-label dashboard, client management portal.',
+      price: 99, label: '/month', wasPrice: 299, savePct: 67,
+      paypalLink: 'https://paypal.me/BisonQuant/99', freeTrial: true,
+      tiers: { monthly: 99, annual: 79, lifetime: 799 }
+    },
+    'reseller-partner': {
+      name: 'ClawMart Reseller Partner Program',
+      desc: 'Earn 30% commission on every sale you refer. Share your unique link. Monthly PayPal payout at $50+.',
+      price: 0, label: ' free', freeTrial: true,
+      paypalLink: '#'
+    },
+    'vertical-legal-bundle': {
+      name: 'Legal AI Agent Vertical Bundle',
+      desc: 'Complete AI suite for legal practices. Document review, case law research, contract analysis, compliance, client intake. 3-5x premium pricing.',
+      price: 79, label: ' one-time', wasPrice: 197, savePct: 60,
+      paypalLink: 'https://paypal.me/BisonQuant/79', freeTrial: true
+    },
+    'vertical-insurance-bundle': {
+      name: 'Insurance Claims Processing AI Bundle',
+      desc: 'End-to-end insurance claims AI. Claims intake, fraud detection, policy verification, damage assessment, settlement. Saves 70%+ processing costs.',
+      price: 89, label: ' one-time', wasPrice: 222, savePct: 60,
+      paypalLink: 'https://paypal.me/BisonQuant/89', freeTrial: true
+    },
+    'compliance-bundle-enterprise': {
+      name: 'Enterprise Compliance AI Agent Bundle',
+      desc: '5 agents: policy checker, evidence collector, audit trail, risk assessor, report builder. 3-5x premium over general agents.',
+      price: 49, label: ' one-time', wasPrice: 147, savePct: 67,
+      paypalLink: 'https://paypal.me/BisonQuant/49', freeTrial: true
+    },
+    'monetization-credit-system': {
+      name: 'Credit/Token-Based Pricing Engine',
+      desc: 'Implement credit-based pricing. Built by the 43% of SaaS now using hybrid (Bessemer 2026). Credit ledger, metering, auto-top-up, Stripe integration.',
+      price: 49, label: ' one-time', wasPrice: 99, savePct: 51,
+      paypalLink: 'https://paypal.me/BisonQuant/49', freeTrial: true
+    },
+    'agency-pricing-optimizer': {
+      name: 'AI Agency Pricing Strategy Optimizer',
+      desc: 'Research-backed pricing frameworks: hybrid, 3-tier (41.4% of top SaaS), annual plans (4x LTV), outcome add-ons. Chargebee/Paid.ai/Pickaxe 2026.',
+      price: 47, label: ' one-time', wasPrice: 94, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/47', freeTrial: true
+    },
+    'agency-community-builder': {
+      name: 'AI Agent Community Builder Toolkit',
+      desc: 'Build a community around your AI business. 3-5x higher retention (Marketplace Library 2026). Discord bots, newsletter, gamification.',
+      price: 44, label: ' one-time', wasPrice: 88, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/44', freeTrial: true
+    },
+    'growth-referral-system': {
+      name: 'AI Agent Referral Growth Engine',
+      desc: 'Complete referral program. 5.4% conversion rate (Growth Engines 2026). Multi-tier commissions, unique links, payout tracking, viral loops.',
+      price: 49, label: ' one-time', wasPrice: 98, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/49', freeTrial: true
+    },
+    'growth-multi-marketplace': {
+      name: 'Multi-Marketplace Distribution Agent',
+      desc: 'Auto-list across 14+ marketplaces. 3-5x more discovery (Digital Applied 2026). Claude Skills, GPT Store, MCPMarket, HuggingFace etc.',
+      price: 39, label: ' one-time', wasPrice: 78, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/39', freeTrial: true
+    },
+    'retention-annual-plan': {
+      name: 'Annual Plan Revenue Maximizer - 4x LTV',
+      desc: 'Optimize annual plan conversion. 4x higher LTV (Paddle Retain 2026). Upsell flows, renewal automation, churn prediction, payment recovery.',
+      price: 29, label: ' one-time', wasPrice: 58, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/29', freeTrial: true
+    },
+    'monetization-value-receipt': {
+      name: 'Customer Value Receipt Generator',
+      desc: 'Monthly value receipts: show savings vs human costs, time saved, results. Transparency builds trust and reduces churn (Paid.ai 2026).',
+      price: 19, label: ' one-time', wasPrice: 38, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/19', freeTrial: true
+    },
+    'free-pilot-lead-qualifier': {
+      name: 'Free Pilot: Lead Qualifier - 100 Free Actions',
+      desc: '100 FREE lead qualifications. After pilot: $2/qualified lead. 3-5x better conversion than freemium (AgentRage 2026). No credit card.',
+      price: 0, label: ' free', freeTrial: true,
+      paypalLink: '#'
+    },
+    'free-pilot-support': {
+      name: 'Free Pilot: Support Resolver - 100 Free Tickets',
+      desc: '100 FREE ticket resolutions. After: $0.50/ticket. Compare to Zendesk $1.50 or humans $5-15. No risk.',
+      price: 0, label: ' free', freeTrial: true,
+      paypalLink: '#'
+    },
+    'free-pilot-docs': {
+      name: 'Free Pilot: Document Processor - 100 Free Pages',
+      desc: '100 FREE pages of document processing. After: $0.25/page. Manual costs ~$13/invoice. Accuracy dashboard included.',
+      price: 0, label: ' free', freeTrial: true,
+      paypalLink: '#'
+    },
+    'dfy-speed-to-lead-agent': {
+      name: 'DFY Speed-to-Lead Agent - $300/month',
+      desc: 'Done-For-You lead agent for local businesses. We build, deploy, host. Respond in 5 seconds. CRM, appointment booking, lead scoring.',
+      price: 300, label: '/month', wasPrice: 450, savePct: 33,
+      paypalLink: 'https://paypal.me/BisonQuant/300', freeTrial: true
+    },
+    'dfy-customer-support-agent': {
+      name: 'DFY Customer Support Agent - $500/month',
+      desc: 'Done-For-You support AI. 60-80% tickets resolved autonomously. Multi-channel. You resell above $500. Market rate: $1-5K/mo.',
+      price: 500, label: '/month', wasPrice: 750, savePct: 33,
+      paypalLink: 'https://paypal.me/BisonQuant/500', freeTrial: true
+    },
+    'dfy-appointment-setter': {
+      name: 'DFY Appointment Setter - $500/month',
+      desc: 'Done-For-You appointment setter. Calendly/Google integration. No-shows reduced by 25%. Medical practices pay $800-1200/mo.',
+      price: 500, label: '/month', wasPrice: 750, savePct: 33,
+      paypalLink: 'https://paypal.me/BisonQuant/500', freeTrial: true
+    },
 };
 
 // Social proof data — rotated every 8 seconds
