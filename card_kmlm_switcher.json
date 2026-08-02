@@ -1,0 +1,43 @@
+{
+  "title": "KMLM Switcher",
+  "metrics": {
+    "return": "+95.8%",
+    "sharpe": "2.47",
+    "max_dd": "-13.4%"
+  },
+  "template": "Canva 1080x1080 dark theme",
+  "elements": [
+    {
+      "type": "text",
+      "content": "KMLM Switcher",
+      "position": "top",
+      "size": "28px",
+      "color": "#00ff88"
+    },
+    {
+      "type": "metric",
+      "label": "Return",
+      "value": "+95.8%",
+      "position": "center-left"
+    },
+    {
+      "type": "metric",
+      "label": "Sharpe",
+      "value": "2.47",
+      "position": "center-right"
+    },
+    {
+      "type": "metric",
+      "label": "Max DD",
+      "value": "-13.4%",
+      "position": "bottom-left"
+    },
+    {
+      "type": "cta",
+      "content": "agensi.io/skills/kmlm-switcher",
+      "position": "bottom",
+      "size": "18px",
+      "color": "#ffffff"
+    }
+  ]
+}

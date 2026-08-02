@@ -1,0 +1,6 @@
+{
+  "commission": "15% platform fee",
+  "seller_payout": "85% to creator",
+  "vetting": "30-day paper trading minimum",
+  "quality_gate": "Sharpe > 0.5, max DD > -25%"
+}

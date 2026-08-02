@@ -1,0 +1,5 @@
+{
+  "name": "BisonQuant Embed",
+  "code": "<iframe src=algobot.cash/widget></iframe>",
+  "use": "Blogger/creator embed"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "BisonQuant Certified Quant Trader",
+  "price": "$199",
+  "exam": [
+    "Risk management",
+    "Backtesting",
+    "Strategy design",
+    "Portfolio theory"
+  ],
+  "validity": "2 years"
+}

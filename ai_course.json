@@ -1,0 +1,11 @@
+{
+  "title": "AI Trading with Hermes Agent",
+  "price": "$47",
+  "modules": [
+    "Setup",
+    "Backtesting",
+    "Risk",
+    "Live Trading"
+  ],
+  "platform": "Gumroad"
+}

@@ -1,0 +1,15 @@
+{
+  "journal": {
+    "price": "$29",
+    "features": [
+      "Strategy log templates",
+      "Risk checklist",
+      "P&L tracker"
+    ]
+  },
+  "merch": {
+    "hoodie": "$49",
+    "mug": "$19",
+    "sticker_pack": "$9"
+  }
+}

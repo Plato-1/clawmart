@@ -1,0 +1,43 @@
+{
+  "title": "Warrior Trading",
+  "metrics": {
+    "return": "+74.5%",
+    "sharpe": "1.79",
+    "max_dd": "-15.8%"
+  },
+  "template": "Canva 1080x1080 dark theme",
+  "elements": [
+    {
+      "type": "text",
+      "content": "Warrior Trading",
+      "position": "top",
+      "size": "28px",
+      "color": "#00ff88"
+    },
+    {
+      "type": "metric",
+      "label": "Return",
+      "value": "+74.5%",
+      "position": "center-left"
+    },
+    {
+      "type": "metric",
+      "label": "Sharpe",
+      "value": "1.79",
+      "position": "center-right"
+    },
+    {
+      "type": "metric",
+      "label": "Max DD",
+      "value": "-15.8%",
+      "position": "bottom-left"
+    },
+    {
+      "type": "cta",
+      "content": "agensi.io/skills/warrior-trading",
+      "position": "bottom",
+      "size": "18px",
+      "color": "#ffffff"
+    }
+  ]
+}

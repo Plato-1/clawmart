@@ -1,0 +1,11 @@
+{
+  "name": "AI Trading Workshop",
+  "price": "$2,500",
+  "duration": "1 day (8 hours)",
+  "modules": [
+    "AI agent setup",
+    "Strategy backtesting",
+    "Risk frameworks",
+    "Live paper trading"
+  ]
+}

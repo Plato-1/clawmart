@@ -1,0 +1,43 @@
+{
+  "title": "EMA Crossover",
+  "metrics": {
+    "return": "+46.3%",
+    "sharpe": "2.73",
+    "max_dd": "-11.5%"
+  },
+  "template": "Canva 1080x1080 dark theme",
+  "elements": [
+    {
+      "type": "text",
+      "content": "EMA Crossover",
+      "position": "top",
+      "size": "28px",
+      "color": "#00ff88"
+    },
+    {
+      "type": "metric",
+      "label": "Return",
+      "value": "+46.3%",
+      "position": "center-left"
+    },
+    {
+      "type": "metric",
+      "label": "Sharpe",
+      "value": "2.73",
+      "position": "center-right"
+    },
+    {
+      "type": "metric",
+      "label": "Max DD",
+      "value": "-11.5%",
+      "position": "bottom-left"
+    },
+    {
+      "type": "cta",
+      "content": "agensi.io/skills/ema-crossover",
+      "position": "bottom",
+      "size": "18px",
+      "color": "#ffffff"
+    }
+  ]
+}

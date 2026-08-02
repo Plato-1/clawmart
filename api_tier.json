@@ -1,0 +1,12 @@
+{
+  "name": "BisonQuant API",
+  "price": "$99/mo",
+  "endpoints": [
+    "/portfolio",
+    "/signals",
+    "/backtest",
+    "/screener"
+  ],
+  "rate_limit": "1000 req/hr",
+  "docs": "api.algobot.cash/docs"
+}

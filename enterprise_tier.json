@@ -1,0 +1,12 @@
+{
+  "name": "BisonQuant Enterprise",
+  "price": "$499/mo",
+  "features": [
+    "Multi-user dashboard",
+    "White-label",
+    "API access",
+    "Priority support",
+    "Custom strategies"
+  ],
+  "target": "Fund managers, family offices"
+}

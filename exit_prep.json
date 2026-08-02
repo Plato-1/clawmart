@@ -1,0 +1,15 @@
+{
+  "target": "$1M ARR",
+  "timeline": "18-24 months",
+  "metrics": [
+    "MRR growth",
+    "Subscriber count",
+    "Churn rate",
+    "LTV/CAC"
+  ],
+  "buyers": [
+    "Fintech platforms",
+    "Data providers",
+    "Brokerages"
+  ]
+}

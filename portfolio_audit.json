@@ -1,0 +1,10 @@
+{
+  "name": "Portfolio Audit",
+  "price": "$50",
+  "deliverables": [
+    "Risk analysis",
+    "DD forensics",
+    "Correlation map",
+    "Optimization tips"
+  ]
+}

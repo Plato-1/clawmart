@@ -1,0 +1,43 @@
+{
+  "title": "Commodity Momentum",
+  "metrics": {
+    "return": "+164.2%",
+    "sharpe": "1.97",
+    "max_dd": "-21.0%"
+  },
+  "template": "Canva 1080x1080 dark theme",
+  "elements": [
+    {
+      "type": "text",
+      "content": "Commodity Momentum",
+      "position": "top",
+      "size": "28px",
+      "color": "#00ff88"
+    },
+    {
+      "type": "metric",
+      "label": "Return",
+      "value": "+164.2%",
+      "position": "center-left"
+    },
+    {
+      "type": "metric",
+      "label": "Sharpe",
+      "value": "1.97",
+      "position": "center-right"
+    },
+    {
+      "type": "metric",
+      "label": "Max DD",
+      "value": "-21.0%",
+      "position": "bottom-left"
+    },
+    {
+      "type": "cta",
+      "content": "agensi.io/skills/commodity-momentum",
+      "position": "bottom",
+      "size": "18px",
+      "color": "#ffffff"
+    }
+  ]
+}

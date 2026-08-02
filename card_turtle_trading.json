@@ -1,0 +1,43 @@
+{
+  "title": "Turtle Trading",
+  "metrics": {
+    "return": "+52.9%",
+    "sharpe": "1.95",
+    "max_dd": "-18.2%"
+  },
+  "template": "Canva 1080x1080 dark theme",
+  "elements": [
+    {
+      "type": "text",
+      "content": "Turtle Trading",
+      "position": "top",
+      "size": "28px",
+      "color": "#00ff88"
+    },
+    {
+      "type": "metric",
+      "label": "Return",
+      "value": "+52.9%",
+      "position": "center-left"
+    },
+    {
+      "type": "metric",
+      "label": "Sharpe",
+      "value": "1.95",
+      "position": "center-right"
+    },
+    {
+      "type": "metric",
+      "label": "Max DD",
+      "value": "-18.2%",
+      "position": "bottom-left"
+    },
+    {
+      "type": "cta",
+      "content": "agensi.io/skills/turtle-trading",
+      "position": "bottom",
+      "size": "18px",
+      "color": "#ffffff"
+    }
+  ]
+}

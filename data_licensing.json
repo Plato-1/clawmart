@@ -1,0 +1,8 @@
+{
+  "datasets": [
+    "Cleaned SEC filings",
+    "ETF correlation matrix",
+    "Cross-exchange arbitrage alerts"
+  ],
+  "pricing": "$50-500/mo per dataset"
+}
