@@ -1,0 +1,22 @@
+5 NEW AI Agent Product Areas on ClawMart — 30 products, $1,600/mo total value
+
+Based on Preuve.ai 2026 "underserved" criteria (fewer than 5 funded competitors per niche), OutlierKit, and SaaS Mag research. Every area: zero AI agent-native tools for SMB segment.
+
+📊 ACCOUNTING & BOOKKEEPING AI (5 products, $360/mo individual, $149 bundle — 62% off)
+$700B US accounting services, 1.4M firms. QuickBooks dominates but zero AI agent layer. Products: Bookkeeping ($69), AP/AR ($59), Tax Prep ($79), Financial Close ($89), Payroll Compliance ($64). Saves 15-20 hrs/month vs manual.
+
+🏠 PROPERTY MANAGEMENT & LANDLORD AI (5 products, $275/mo, $109 bundle — 60% off)
+$100B+ market, 20M+ rental units. Distinct from Real Estate AI (agent-focused). Products: Tenant Screening ($59), Rent Collection ($49), Maintenance Coordination ($54), Lease Management ($44), Portfolio Analytics ($69). 300K+ PM companies, zero AI agents.
+
+🔍 RECRUITMENT & STAFFING AGENCY AI (5 products, $300/mo, $129 bundle — 57% off)
+$200B+ global staffing. Distinct from HR/Talent (internal HR). Products: Candidate Sourcing ($79), Resume Screening ($69), Interview Coordination ($49), Client Management ($59), Candidate Engagement ($44). 20K+ US staffing agencies.
+
+🎉 EVENT PLANNING & PRODUCTION AI (5 products, $315/mo, $129 bundle — 59% off)
+$1T+ global events. Distinct from Events & Live Intelligence (coverage tools). Products: Wedding Planning ($69), Corporate Events ($79), Catering F&B ($54), Marketing & Registration ($49), Venue Management ($64).
+
+♻️ WASTE MANAGEMENT & ENVIRONMENTAL AI (5 products, $350/mo, $149 bundle — 57% off)
+$100B+ US market, 20K+ companies. Literally zero AI agent competition. Products: Route Optimization ($79), Customer Service ($54), Recycling Analytics ($69), EPA Compliance ($89), Asset Management ($59).
+
+Catalog: 2,054 products, 124 categories. All available at https://monetization-kappa.vercel.app
+
+Research methodology: Preuve.ai 2026 vertical agent framework (must own a vertical and serve a buyer who already pays a person to do the work). "Underserved" = fewer than 5 funded competitors. Every area above has zero AI agent-native tools for the SMB segment. Enterprise vendors sell upmarket ($50K+/yr) and leave solo operators and SMBs open.

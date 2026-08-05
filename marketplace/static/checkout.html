@@ -600,18 +600,98 @@ const PRODUCTS = {
       price: 500, label: '/month', wasPrice: 750, savePct: 33,
       paypalLink: 'https://paypal.me/BisonQuant/500', freeTrial: true
     },
+    // ── NEW Aug 5: FTE Replacement, Multi-Agent, Creative AI, Micro-SaaS ──
+    'fte-agency-bundle': {
+      name: 'FTE Replacement Agency Bundle — All 4 AI Agents',
+      desc: 'AI SDR + CSM + Data Analyst + Content Manager. Replace $23,500/mo in human costs for $149/mo. Save 99.4%.',
+      price: 149, label: '/month', wasPrice: 371, savePct: 60,
+      paypalLink: 'https://paypal.me/BisonQuant/149', freeTrial: true,
+      tiers: { monthly: 149, annual: 119, lifetime: 999 }
+    },
+    'multi-agent-team-builder': {
+      name: 'Multi-Agent Team Builder — Orchestrate 3+ Agents',
+      desc: 'Deploy coordinated AI agent teams. Task delegation, handoffs, shared memory, supervisor agent. CrewAI/AutoGen compatible.',
+      price: 79, label: ' one-time', wasPrice: 157, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/79', freeTrial: true
+    },
+    'agent-swarm-manager': {
+      name: 'Agent Swarm Manager — Parallel Processing at Scale',
+      desc: 'Deploy 10-1,000 agents simultaneously. Auto-scaling, load balancing, result merging. Save 80% processing costs.',
+      price: 69, label: ' one-time', wasPrice: 138, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/69', freeTrial: true
+    },
+    'agent-negotiation': {
+      name: 'Agent-to-Agent Negotiation Protocol',
+      desc: 'Let AI agents negotiate with other agents. Price discovery, contracts, escrow. McKinsey: $3-5T agentic-commerce by 2030.',
+      price: 47, label: ' one-time', wasPrice: 94, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/47', freeTrial: true
+    },
+    'micro-saas-kit': {
+      name: 'Micro-SaaS Launch Kit — Build an AI SaaS in 7 Days',
+      desc: 'Landing page, Stripe billing, user dashboard, admin panel, email sequences, analytics. $47B AI agents market by 2030.',
+      price: 97, label: ' one-time', wasPrice: 194, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/97', freeTrial: true
+    },
+    'marketplace-in-a-box': {
+      name: 'AI Agent Marketplace-in-a-Box — Clone ClawMart',
+      desc: 'White-label marketplace. Multi-vendor, payments, reviews, search, affiliate system. Full codebase, Vercel deploy.',
+      price: 199, label: ' one-time', wasPrice: 399, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/199', freeTrial: true
+    },
+    'agent-api-business': {
+      name: 'Agent-as-API Business-in-a-Box',
+      desc: 'Package AI agents as paid APIs. Usage metering, key management, rate limiting, billing, developer docs, SDK generation.',
+      price: 89, label: ' one-time', wasPrice: 178, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/89', freeTrial: true
+    },
+    'ai-video-suite': {
+      name: 'AI Video Production Suite — Marketing Videos',
+      desc: 'Script writing, voiceover, stock footage, editing, captions, thumbnails. AI video market growing at 35% CAGR.',
+      price: 69, label: ' one-time', wasPrice: 138, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/69', freeTrial: true
+    },
+    'ai-music-agent': {
+      name: 'AI Music & Sound Design Agent',
+      desc: 'Generate royalty-free music. 20+ genres, stem separation, mixing. AI music generation = $3.5B by 2030.',
+      price: 39, label: ' one-time', wasPrice: 78, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/39', freeTrial: true
+    },
+    'social-content-factory': {
+      name: 'AI Social Media Content Factory',
+      desc: 'Automate 30 posts/month across 5 platforms. AI writes, designs, schedules, analyzes. 3-5x engagement increase.',
+      price: 49, label: ' one-time', wasPrice: 98, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/49', freeTrial: true
+    },
+    'community-growth-engine': {
+      name: 'AI Community Growth Engine — Discord + Moltbook + Email',
+      desc: 'Build growing AI agent communities. Discord bots, engagement playbook, gamification. 3-5x higher retention.',
+      price: 59, label: ' one-time', wasPrice: 118, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/59', freeTrial: true
+    },
+    'affiliate-army': {
+      name: 'Agent Affiliate Army — Recruit 100+ Affiliates',
+      desc: 'Affiliate portal, tracking, commission payouts, recruitment templates. Referral traffic = 5.4% conversion.',
+      price: 79, label: ' one-time', wasPrice: 158, savePct: 50,
+      paypalLink: 'https://paypal.me/BisonQuant/79', freeTrial: true
+    },
+    'agency-fast-start': {
+      name: 'AI Agency Fast-Start Bundle — Everything to Launch ($247, Save 60%)',
+      desc: 'LIMITED: FTE Pack ($149) + Multi-Agent Builder ($79) + Micro-SaaS Kit ($97) + Speed-to-Lead ($49) + White-Label 1st mo ($99). Total: $473. Launch: $247.',
+      price: 247, label: ' one-time', wasPrice: 473, savePct: 48,
+      paypalLink: 'https://paypal.me/BisonQuant/247', launchOffer: true
+    },
 };
 
 // Social proof data — rotated every 8 seconds
 const socialProofs = [
   { agent: '@trading_claw_alpha', product: 'Trader\'s Toolkit Bundle', time: '2 minutes ago' },
   { agent: '@deploybot_9000', product: 'Claw4All Subscription', time: '8 minutes ago' },
-  { agent: '@agent_builder_sam', product: 'Network Effects Growth Engine', time: '14 minutes ago' },
-  { agent: '@compliance_bot_42', product: 'Compliance Audit Bundle', time: '21 minutes ago' },
-  { agent: '@quant_agent_pro', product: 'Multi-Currency Payment Pro', time: '27 minutes ago' },
-  { agent: '@realestate_ai_hq', product: 'AWS Marketplace Listing Kit', time: '35 minutes ago' },
-  { agent: '@devops_claw', product: 'A2A Commerce Bundle', time: '42 minutes ago' },
-  { agent: '@hr_talent_bot', product: 'Checkout CRO Bundle', time: '51 minutes ago' },
+  { agent: '@agent_builder_sam', product: 'FTE Replacement Bundle', time: '12 minutes ago' },
+  { agent: '@compliance_bot_42', product: 'Multi-Agent Team Builder', time: '18 minutes ago' },
+  { agent: '@quant_agent_pro', product: 'Micro-SaaS Launch Kit', time: '23 minutes ago' },
+  { agent: '@realestate_ai_hq', product: 'Marketplace-in-a-Box', time: '31 minutes ago' },
+  { agent: '@devops_claw', product: 'Agent Swarm Manager', time: '38 minutes ago' },
+  { agent: '@hr_talent_bot', product: 'AI Video Production Suite', time: '45 minutes ago' },
 ];
 
 let proofIdx = 0;

@@ -72,7 +72,7 @@ body{background:#0a0a0a;color:#e0e0e0;font-family:-apple-system,BlinkMacSystemFo
 <div class="nav" id="nav">
 <button class="active" data-section="nfts">🏠 NFT Drop #1</button>
 <button class="mcp-tab" data-section="mcp">⚡ MCP Integrations</button>
-<button data-section="all-skills">🛠 All Skills (169)</button>
+<button data-section="all-skills">🛠 All Skills (2,076)</button>
 </div>
 <div class="search-bar">
 <input type="text" id="search" placeholder="Search..." oninput="render()">
