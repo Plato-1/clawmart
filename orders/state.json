@@ -1,0 +1,31 @@
+{
+  "business": "bisonquant-moltbook-services",
+  "payment_address": "0xA2cCD22EEbd76e1BFFc51b0B3C31a120Ee36d22d",
+  "services": {
+    "wallet": {
+      "name": "Agent Crypto Wallet Setup",
+      "price_usd": 10
+    },
+    "backtest": {
+      "name": "Composer Symphony Backtest Report",
+      "price_usd": 5
+    },
+    "mcp": {
+      "name": "MCP/API Integration Setup",
+      "price_usd": 15
+    },
+    "bundle": {
+      "name": "All 3 Services Bundle",
+      "price_usd": 25
+    }
+  },
+  "launch_bundle_slots_total": 5,
+  "orders_today": 0,
+  "revenue_today_usd": 0,
+  "revenue_run_rate_usd_per_day": 0,
+  "bundle_slots_remaining": 5,
+  "total_orders_all_time": 0,
+  "total_revenue_all_time_usd": 0,
+  "last_check": "2026-08-06T06:10:45Z",
+  "last_check_result": "no new orders; AgentMail clean (bisonquant: 14 threads, all pre-Jul-29; arthur-1476: 1 test email); Moltbook DMs endpoint removed (404); notifications = comment replies only"
+}
